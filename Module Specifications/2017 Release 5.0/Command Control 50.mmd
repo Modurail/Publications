@@ -1,0 +1,199 @@
+# Command Control Overview
+
+The **NMRA** Electrical Committee: Digital Command Control Working Group
+has developed a set of standards and recommended practices that define
+digital command control so that basic interchange of equipment can be
+obtained between users of different manufacturers of digital command
+control equipment.
+
+Digital Command Control (**DCC**) is possible because of new advances in
+electronics that allow a very smart controller to be installed inside
+the average locomotive shell. Instead of using a variable power source
+as in the case of a standard analog throttle, the track becomes a
+communications device that broadcasts multiple signals from many
+controllers at once. Each locomotive receiver is pre-programmed to
+respond to a specific controller, allowing many locomotives on the same
+section of track, each controlled independently.
+
+The analog throttle we commonly refer to as a *power pack* is now inside
+the locomotive. As a result, the track will always have between 7 and 20
+volts available across it when measured with a voltmeter. While most
+non-decoder equipped locomotives will operate with this system, **NGM**
+cannot guarantee that damage will not result from this use.
+
+The **DCC** standard allows compatibility between different
+manufacturers while at the same time allowing the manufacturer a great
+deal of freedom and flexibility to create very different products to
+fill market niches that they feel best qualified to provide.
+
+**North Georgia Modurail, Inc**. has enthusiastically adopted these
+standards by purchasing command stations, boosters, decoders and
+throttles from **Digitrax, Inc**. of Norcross, Georgia. **Digitrax**
+units are compatible with **NMRA** **DCC** Standards and Recommended
+Practices[^14], while still offering additional options and features.
+
+[^14]: Due to standardization, decoders from other **DCC** compatible
+    manufacturers will work with the club system but extended optional
+    features may not operate.
+
+# Command Control Bus Wiring
+
+It is strongly recommended that all new **NGM** modules provide support
+for the Throttle Bus. If the module owner would like, **NGM** will
+install a socket mounted RJ11-6 jack on either/both the north and/or
+south faces of the module along with the associated wiring to interface
+to the Throttle Bus.
+
+## Power Pack Isolation
+
+Sections of track that will operate in analog mode (using a standard
+power pack), should provide some form of isolation. The most common
+technique is to install a \#1156 30W, 12V automotive tail lamp between
+adjoining track sections (*see diagram **D-5***.)
+
+# Command Control Terms and Definitions
+
+The purpose of this section is to define the nomenclature used in
+discussing Digital Command Control (**DCC**). **DCC** can be assumed to
+imply compatibility with **NMRA DCC** Standards and Recommended
+Practices.
+
+## Control Bus
+
+A bus which connects a Command Station to its Boosters.
+
+## Cab Bus
+
+A bus used to connect all types of cabs, except wireless cabs, to a
+command station. Wireless cabs are indirectly connected to a cab bus via
+their companion wireless cab base.
+
+## Booster
+
+A unit which accepts as input a signal from a command station and
+provides as output a power source onto which is encoded a digital
+(**DCC**) packet signal. (Also known as a "Power Station". **Digitrax**
+calls it a **DB100**, for example.) More than one booster may be used on
+the same layout if additional current is needed for locomotives.
+
+## Cab
+
+A unit which presents to a human operator the controls necessary to
+operate a model locomotive, track switches, or layout accessories. Such
+controls may include both input devices (knobs, buttons, switches)and
+output devices (lamps, displays, audible sounding units).
+
+## Fixed Cab
+
+A cab which is permanently mounted in a specific location.
+
+## Tethered Cab
+
+A cab which is hand-held and connected by a fixed cable to the layout.
+
+## Walk-around Cab
+
+A cab which is hand-held and connected by a cable to a plug which may be
+inserted in jacks at multiple points around the layout. Walk-around cabs
+permit the locomotive(s) being controlled by that cab to maintain
+direction and speed during the interval while the cab is unplugged,
+moved to a new location, and re-plugged. This is because packet
+transmission is done in the command station.
+
+## Wireless Cab
+
+A hand-held cab which has no cable connection to the layout. Wireless
+cabs may use infra-red, radio, or other means of communicating
+information.
+
+## Wireless Cab Base
+
+A companion receptor unit for one or more wireless cabs which is fixed
+to the layout and presents cab information to the cab bus
+
+## Computerized Cab
+
+A cab which is implemented by a personal computer or workstation.
+
+## Panel or Tower Cab
+
+A fixed cab which is primarily used for operating turnouts, signals, and
+related track accessories. A tower cab may, but typically does not, also
+control locomotives. Tower panels typically include display devices for
+indicating track switch positions, track occupancy, and layout status. A
+**CTC** board is an example of a tower cab.
+
+## Command Station
+
+That unit which *accepts* input from all cabs currently in use and
+provides as output either:
+
+1.  a **DCC** signal directly to the track, or
+2.  an appropriate signal to drive a Booster to output a **DCC** signal.
+
+## Software Command Station
+
+A command station implemented by software processes in a computer,
+typically a personal computer or workstation.
+
+## Accessory Booster
+
+A Booster whose output is dedicated to the operation of stationary
+decoders.
+
+## Programmer
+
+That unit which provides access to the system configuration functions,
+such as setting locomotive addresses, combining and breaking up multiple
+unit lashups, etc. May be integrated with the command station, or with
+one or more cabs.
+
+## Decoder
+
+A unit which accepts address and command information presented in the
+digital packet format from a Command Station or Booster and directly
+controls and drives a motor, solenoid, relay, lamp, or other device.
+(Also known as a "Receiver".)
+
+## Mobile Decoder
+
+A decoder which is installed in, and implements the specific functions
+to drive the motor, lamps, and accessories of a locomotive or other
+piece of rolling stock. A mobile decoder derives its signal and power
+from contact with the rails.
+
+## Stationary Decoder
+
+A decoder which is installed in a fixed place on the layout and provides
+power and position control for one or more turnout motors or provides
+operational control for other stationary accessories on the layout. A
+stationary decoder may derive its signal and power from the rails or it
+may be powered from an Accessory Booster.
+
+## Decoder Slave
+
+A unit which is driven by a decoder and which provides additional power
+for the operation of additional electrical load in parallel with the
+original decoder load. Typical use is for 2^nd^, 3^rd^, etc. motors in a
+multi-motor locomotive or permanently-coupled locomotives. May also be
+called "Slave Decoder".
+
+## Track Segment
+
+That portion of electrically isolated track powered and controlled by a
+single Booster.
+
+## Bus
+
+A set of wires that distributes electrical power or signals around the
+layout.
+
+## Track Bus
+
+A bus which connects a power station to a track segment. The aggregate
+length of the track segment is limited such that the power station can
+power the maximum number of locomotives to be simultaneously operated on
+the segment. Note that stationary decoders may be connected to a track
+bus. The wire gauge of a track bus must be appropriate to the rating of
+the associated Booster.
+
