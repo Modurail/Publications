@@ -1,0 +1,28 @@
+1. Trackwork
+============
+- Needs updating to refer to the new Track End Spec with comment to interface older style modules.  Updated Track ands are recommended and ecnouraged.
+- Inconsistency re uncouplers.
+- Diagram D-1 needs to be updated to show Track Ends 
+
+2. Electrical
+=============
+- Plug and socket spec needs updating.  
+- Diagrams D-5 and D-6 needs to be updated
+
+3. Frame Work
+=============
+Update re club providing clamps
+
+4. Scenery
+==========
+No update
+
+5. Rolling Stock
+================
+- To bo removed???
+
+6. Command Control
+==================
+- Moved to before DIAGRAMS
+- Add JMRI DecoderPro and WiFi Throttle info
+- Remove referecnes to Analog Throttles unless a part of the scenery.
