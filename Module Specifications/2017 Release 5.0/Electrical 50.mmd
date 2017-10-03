@@ -1,120 +1,78 @@
 # NGM Electrical Standards Sheets
 
-In the following specifications either the **NMRA** standard or the
-**NGM** standard are required for electrical wiring on modules
 
-## Wiring Color Code Specification [^6] ES 1.0
+## Wiring Color Code Specification ES 1.0
 
-| Wire Connection | NMRA Std. | Pin \# | Old NGM Std. | Pin \# | NGM Std. | Pin \# |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| S. Main, S. Rail | RED | 1-1 | RED | 1-3 | RED | 5 |
-| S. Main, N. Rail | GRN | 1-2 | GRN | 1-1 | GRN | 3 |
-| N. Main, S. Rail | BLU (BLK) | 2-1 | BLU (BLK) | 1-4 | BLU | 2 |
-| N. Main, N. Rail | YEL (WHT) | 2-2 | YEL (WHT) | 1-2 | YEL | 7 |
-| Aux. Main, S. Rail | N/A | N/A | ORG (GRY) | 2-2 | ORG | 9 |
-| Aux. Main, N. Rail | N/A | N/A | BRN | 2-1 | BRN | 6 |
-| DCC Common | N/A | N/A | N/A | N/A | GRY | 8 |
-| 18VAC-1 | N/A | N/A | N/A | N/A | BLK | 4 |
-| 18VAC-2 | N/A | N/A | N/A | N/A| WHT| 1 |
+| Wire Connection | NGM Std. | Anderson Housing |
+| :--- | :---: |
+| S. Main, S. Rail | RED | 1327 Red |
+| S. Main, N. Rail | GRN | 1327G5 Green |
+| N. Main, S. Rail | BLU | 1327G8 Blue |
+| N. Main, N. Rail | YEL | 1327G16 Yellow |
+| Aux. Main, S. Rail | ORG | 1327G17 Orange |
+| Aux. Main, N. Rail | BRN | 1327G23 Violet[^6] |
+| DCC Common | GRY | 1327G18 Gray |
+| 16VAC-1 | BLK | 1327G6 Black |
+| 16VAC-2 | WHT| 1327G7 White |
 
-[^6]: Colors indicated in parentheses are alternate acceptable colors.
-    Pin \# indicates which connector then which pin, e.g. 2-1 means the
-    2^nd^ connector, pin \#1.
+[^6] Optional, but not recommended: 1327G21 Brown.
 
 ## Wire and Plug Specifications ES 1.1
 
-| Item | NMRA Std. | Old NGM Std. | NGM Std. |
-| :--- | :---: | :---: | :---: |
-| Throttle Bus Wire | N/A | NGM provided | NGM provided |
-| Throttle Bus Plug | N/A | NGM provided | NGM provided |
-| Throttle Bus Socket | N/A | NGM provided | NGM provided |
-| Feeder Wire | N/A | 16-20 AWG [^7] | 16-20 AWG [^7] |
-| Main Electrical Bus Wire | 18 AWG | 14 AWG | 14 AWG |
-| Left (West) Connector | Jones 2 pin Female | Jones 4 pin Female | N/A |
-| Right (East) Connector | Jones 2 pin Male | Jones 4 pin Male | N/A |
-| Main Electrical Bus Plug   | N/A | N/A | ATA 9-Pin [^8] |
-| Main Electrical Bus Socket | N/A | N/A | ATA 9-Pin [^9] |
+| Item | NGM Std. |
+| :--- | :---: |
+| Throttle Bus Wire | LocoNet[^7] |
+| Throttle Bus Plug | RJ12 Plug |
+| Throttle Bus Socket | RJ12 Socket[^8] |
+| Feeder Wire | 16-20 AWG |
+| Main Electrical Bus Wire | 14 AWG |
+| Left (West) Connector | Mounted 'M' |
+| Right (East) Connector | Mounted 'M'[^9] |
 
-[^7]: 18 AWG recommended
-
-[^8]: Pollack \#12-906
-
-[^9]: Pollack \#12-907
+[^7] 6 wire flat phone cable.
+[^8] Digitrax UP5 recommended
+[^9] Optional extension cable terminated by a 'J' connector extending at least 18" beyond the module end.
 
 ## AC Power Source Specifications ES 1.2
 
-| Item | NMRA Std. | Old NGM Std. | NGM Std. |
-| :--- | :----------------------------- | :-------------------- | :------------------------ |
-| **Type** | 110VAC UL Approved, Heavy Duty grounded multi-outlet strip. | 110VAC UL Approved, Heavy Duty grounded multi-outlet strip. | 18VAC tap from Main Electrical Bus |
-| **Orientation** | Male to East End | Male to East End | N\A |
-| | Strip at West End | Strip at West End | N/A |
-| **Capacity** | 15 amp | 15 amp | 500 mA draw max. [^10] |
-| **Wire Size** | 14 AWG | 14 AWG | 14 AWG on bus, 18 AWG on module |
+| Item | NGM Std. |
+| :--- | :--- |
+| Type | 16VAC tap from Main Electrical Bus |
+| Capacity | 500 mA draw max. [^10] |
+| Wire Size | 14 AWG on bus, 18 AWG on module |
 
-[^10]: Maximum current available to any one module is subject to total
-    current capacity provided by **NGM**. See layout coordinator for
-    more details.
+[^10]: Maximum current available to any one module is subject to total current capacity provided by the power district. See layout coordinator for details or exceptions.
 
 # Electrical Reference
 
 
 ## General Electrical Standards
-
-Each module shall connect to the Main Electrical Bus via the ATA 9-Pin
-connector providing power for at least two mainlines and shall be wired
-according to the wiring diagram provided in this document. It is not
-required that mainlines have module to module isolation but branchlines
-should be isolated from the mainline with plastic insulating rail
-joiners.
-
-An **NGM** modification to the **NMRA** standard for Main Electrical Bus
-Wiring is the use of 14 AWG electrical wire on HO modules. This wire
-size allows for high current capacity, low signal loss, and high
-physical strength. (*See **NMRA Standard MS 1.3** Electrical standards
-for Modules, All Scales.*)
+Each module shall provide and connect to a 14 AWG Main Electrical Bus and shall be wired according to the diagram provided in this document. Branchlines should be isolated from the mainline with plastic insulating rail joiners.
 
 ## Wiring
+The Main Electrical Bus shall consist of a nine (9) wire cable forming a robust electrical backbone to which each module is connected by feeders. This cable shall provide three (3) pairs of 14 AWG wire to power two (2) mainlines and one (1) auxiliary mainline, one (1) 14 AWG wire to serve as the DCC booster common and one (1) pair of 14 AWG wires to provide 16VAC for local accessory power needs. See diagram **D-6** for pin wiring and color code.) 
 
-The Main Electrical Bus shall consist of a nine (9) wire cable forming a
-robust electrical backbone to which each module is connected by feeders.
-This cable shall provide three (3) pairs of 14 AWG wire to power two (2)
-mainlines and one (1) auxiliary mainline, one (1) 14 AWG wire to serve
-as the DCC booster common and one (1) pair of 14 AWG wires to provide
-18VAC. Each module need only provide wiring for local track and power
-requirements, *(see diagram **D-6** for pin wiring and color code.)*
+Modules shall provide continuous connections for LocoNet even if not needed on the module.
 
-Throttle Bus wiring will be provided and installed by **NGM** if
-requested.
-
-Provisions should be made to ensure that all wiring can be properly
-stowed for transport. In other words, no dangling wires.
+Provisions should be made to ensure that all wiring can be properly stowed for transport (avoid loose hanging wires and connectors).
 
 ## Connections
 
 
 ### Terminal Strips
-
-It is recommended that all module wiring be accessible using a terminal
-strip between the 9-pin connector and the rest of the module. This will
-allow for easy socket maintenance, the ability to easily add **NMRA**
-plug assemblies and also provide a convenient location for electrical
-testing with a voltmeter.
+All module wiring shall be accessible using a terminal strip between the Main Electrical Bus and the rest of the module. This will allow for easy maintenance, the ability to add non-standard plug assemblies and provide a convenient location for electrical testing.
 
 ### Main Electrical Bus Connectors
+Bus connections between modules shall use Anderson PowerPole connectors arranged in 3x3 blocks in one of two configurations, 'M' for mounting on a module and 'J' for jumpers between modules or extensions. ('M' blocks connect only to 'J' blocks and vice versa.) Connector shell colors shall correspond to the recommended wiring colors. (Exception to allow a Violet housing to substitute for Brown to improve color contrast.)
 
-The ATA 9-pin socket shall be mounted towards the back of and as close
-to center (East-West) as possible on modules up to 6' long. On longer
-modules the socket shall be mounted 3' from the West end (closest joist
-is acceptable.) Use a mounting bracket (Pollock \#12-701) and orient the
-socket facing downward as much as possible giving proper clearance for
-exit wires and not allowing the connector to hang below the module
-frame.
+The 'M' connection blocks shall be securely mounted within 8" of the module end and within 6" of the front of the module.  If an extension cable is used in place of a mounted 'M' connector, it shall extend at least 18" beyond the East end (right side) of the module.
 
-**NGM** will stock these connectors and wire for use in members' modules
-at a nominal fee.
+Local wiring (track feeders and AC accessory) shall tap from the 'M' connector block on the West end (left side) and terminate in a nearby terminal strip.
+
+**NGM** will stock the connector housings, contacts and wire for use in members' modules at a nominal fee.
 
 ### Plug Adapters
-
+[remove]
 When connecting to a standard **NMRA** module, an adapter must be used
 to break out the individual mainlines into the 2-pin plugs used by
 **NMRA**. It is intended that **NGM** will have these adapters available
@@ -122,6 +80,7 @@ to members who have followed the **NMRA** standards. *This would be the
 case if a new member joined with an existing module from another club.*
 
 ## Branch Line Electrical Isolation
+[remove]
 
 Optional sidings and passing tracks must be electrically isolated if
 analog throttles are used for switching off the mainline. Gaps must be
@@ -134,9 +93,7 @@ method (using epoxy to fill a cut in the rails) when installing
 insulation gaps.
 
 ## Provision for Accessory Power
+The Main Electrical Bus shall provide 16VAC on the black and white wires. Individual modules may use this power source for optional accessories such as lighting, animation and switch machines. Each module is limited to 500 mA current draw, continuous.[^10]
 
-The Main Electrical Bus shall provide 18 VAC on the black and white
-wires. Individual modules may use this power source for optional
-accessories such as lighting, animation and switch machines. It is
-recommended that a module limit the current draw to 500 mA, continuous.
+[^10] Exceptions to this limit may be made by the layout coordinator.
 
