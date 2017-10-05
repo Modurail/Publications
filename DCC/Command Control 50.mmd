@@ -1,86 +1,81 @@
 # Command Control Overview
 
 The **NMRA** Electrical Committee: Digital Command Control Working Group
-has developed a set of standards and recommended practices that define
-digital command control so that basic interchange of equipment can be
-obtained between users of different manufacturers of digital command
+developed a set of standards and recommended practices that define
+digital command control to facilitate basic interchange of equipment 
+between users of different manufacturers of digital command
 control equipment.
 
 Digital Command Control (**DCC**) is possible because of new advances in
-electronics that allow a very smart controller to be installed inside
+electronics that allow a smart controller (**decoder**) to be installed inside
 the average locomotive shell. Instead of using a variable power source
 as in the case of a standard analog throttle, the track becomes a
 communications device that broadcasts multiple signals from many
-controllers at once. Each locomotive receiver is pre-programmed to
-respond to a specific controller, allowing many locomotives on the same
+controllers (**throttles**) at once. Each locomotive decoder is programmed to
+respond to a specific throttle, allowing many locomotives on the same
 section of track, each controlled independently.
 
 The analog throttle we commonly refer to as a *power pack* is now inside
 the locomotive. As a result, the track will always have between 7 and 20
-volts available across it when measured with a voltmeter. While most
+volts available to power the decoders and locomotives. While most
 non-decoder equipped locomotives will operate with this system, **NGM**
 cannot guarantee that damage will not result from this use.
 
 The **DCC** standard allows compatibility between different
 manufacturers while at the same time allowing the manufacturer a great
-deal of freedom and flexibility to create very different products to
-fill market niches that they feel best qualified to provide.
+deal of freedom and flexibility to create different products to fill 
+market niches that they feel best qualified to provide.
 
-**North Georgia Modurail, Inc**. has enthusiastically adopted these
+**North Georgia Modurail, Inc.** enthusiastically supports these
 standards by purchasing command stations, boosters, decoders and
-throttles from **Digitrax, Inc**. of Norcross, Georgia. **Digitrax**
-units are compatible with **NMRA** **DCC** Standards and Recommended
-Practices[^14], while still offering additional options and features.
+throttles from **Digitrax, Inc.** Their products are compatible with 
+**NMRA DCC** Standards and Recommended Practices[^1], 
+while still offering additional options and features.
 
-[^14]: Due to standardization, decoders from other **DCC** compatible
+[^1]: Due to standardization, decoders from other **DCC** compatible
     manufacturers will work with the club system but extended optional
     features may not operate.
 
 # Command Control Bus Wiring
 
-It is strongly recommended that all new **NGM** modules provide support
-for the Throttle Bus. If the module owner would like, **NGM** will
+All new **NGM** modules shall provide support
+for the Throttle Bus (LocoNet). Minimally, the module shall provide a LocoNet 
+cable would like, **NGM** will
 install a socket mounted RJ11-6 jack on either/both the north and/or
 south faces of the module along with the associated wiring to interface
 to the Throttle Bus.
 
-## Power Pack Isolation
-
-Sections of track that will operate in analog mode (using a standard
-power pack), should provide some form of isolation. The most common
-technique is to install a \#1156 30W, 12V automotive tail lamp between
-adjoining track sections (*see diagram **D-5***.)
-
 # Command Control Terms and Definitions
 
 The purpose of this section is to define the nomenclature used in
-discussing Digital Command Control (**DCC**). **DCC** can be assumed to
-imply compatibility with **NMRA DCC** Standards and Recommended
+discussing Digital Command Control (**DCC**). **DCC** implies 
+compatibility with **NMRA DCC** Standards and Recommended
 Practices.
 
 ## Control Bus
 
-A bus which connects a Command Station to its Boosters.
+An electrical signal bus which connects a Command Station to its Boosters.
 
-## Cab Bus
+## Cab (Throttle) Bus
 
-A bus used to connect all types of cabs, except wireless cabs, to a
+An electrical signal bus used to connect all types of cabs (throttles), except wireless cabs, to a
 command station. Wireless cabs are indirectly connected to a cab bus via
 their companion wireless cab base.
 
 ## Booster
 
-A unit which accepts as input a signal from a command station and
+A power unit which accepts as input a signal from a command station and
 provides as output a power source onto which is encoded a digital
 (**DCC**) packet signal. (Also known as a "Power Station". **Digitrax**
-calls it a **DB100**, for example.) More than one booster may be used on
-the same layout if additional current is needed for locomotives.
+uses the prefix **DB** for their boosters; **DB200**, for example.) 
+More than one booster may be used on the same layout if additional 
+current is needed for locomotives.
 
-## Cab
+## Cab (Throttle)
 
 A unit which presents to a human operator the controls necessary to
 operate a model locomotive, track switches, or layout accessories. Such
-controls may include both input devices (knobs, buttons, switches)and
+controls may include both input devices (knobs, buttons, switches) and
 output devices (lamps, displays, audible sounding units).
 
 ## Fixed Cab
@@ -109,11 +104,11 @@ information.
 ## Wireless Cab Base
 
 A companion receptor unit for one or more wireless cabs which is fixed
-to the layout and presents cab information to the cab bus
+to the layout and presents cab information to the cab bus.
 
 ## Computerized Cab
 
-A cab which is implemented by a personal computer or workstation.
+A cab which is implemented by a computer or workstation.
 
 ## Panel or Tower Cab
 
@@ -125,7 +120,7 @@ indicating track switch positions, track occupancy, and layout status. A
 
 ## Command Station
 
-That unit which *accepts* input from all cabs currently in use and
+That unit which receives input from all cabs currently in use and
 provides as output either:
 
 1.  a **DCC** signal directly to the track, or
@@ -134,7 +129,7 @@ provides as output either:
 ## Software Command Station
 
 A command station implemented by software processes in a computer,
-typically a personal computer or workstation.
+typically a computer or workstation.
 
 ## Accessory Booster
 
@@ -145,7 +140,7 @@ decoders.
 
 That unit which provides access to the system configuration functions,
 such as setting locomotive addresses, combining and breaking up multiple
-unit lashups, etc. May be integrated with the command station, or with
+unit lashups, etc. This may be integrated with the command station, or with
 one or more cabs.
 
 ## Decoder
@@ -159,8 +154,8 @@ controls and drives a motor, solenoid, relay, lamp, or other device.
 
 A decoder which is installed in, and implements the specific functions
 to drive the motor, lamps, and accessories of a locomotive or other
-piece of rolling stock. A mobile decoder derives its signal and power
-from contact with the rails.
+piece of rolling stock. A mobile decoder derives its signal from 
+contact with the rails and is powered from the rails or a battery.
 
 ## Stationary Decoder
 
@@ -180,7 +175,7 @@ called "Slave Decoder".
 
 ## Track Segment
 
-That portion of electrically isolated track powered and controlled by a
+Or Power District, that portion of electrically isolated track powered and controlled by a
 single Booster.
 
 ## Bus
