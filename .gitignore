@@ -1,0 +1,5 @@
+# ignore generated html files,
+*.html
+ 
+# ignore generated docx files,
+*.docx
