@@ -3,3 +3,6 @@
  
 # ignore generated docx files,
 *.docx
+
+# ignore specific generated LaTEX file,
+*NGM_output.tex
