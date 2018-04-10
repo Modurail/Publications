@@ -1,8 +1,10 @@
-# NGM Electrical Standards Sheets
+# Electrical
 
 
-## Wiring Color Code Specification ES 1.0
+## NGM Electrical Standards Sheets
 
+
+### Wiring Color Code Specification ES 1.0
 | Wire Connection | NGM Std. | Anderson Housing |
 | :--- | :---: |
 | S. Main, S. Rail | RED | 1327 Red |
@@ -10,90 +12,68 @@
 | N. Main, S. Rail | BLU | 1327G8 Blue |
 | N. Main, N. Rail | YEL | 1327G16 Yellow |
 | Aux. Main, S. Rail | ORG | 1327G17 Orange |
-| Aux. Main, N. Rail | BRN | 1327G23 Violet[^6] |
+| Aux. Main, N. Rail | BRN | 1327G23 Violet[^5] |
 | DCC Common | GRY | 1327G18 Gray |
 | 16VAC-1 | BLK | 1327G6 Black |
 | 16VAC-2 | WHT| 1327G7 White |
 
-[^6] Optional, but not recommended: 1327G21 Brown.
+[^5]: Optional, but not recommended: 1327G21 Brown.
 
-## Wire and Plug Specifications ES 1.1
-
+### Wire and Plug Specifications ES 1.1
 | Item | NGM Std. |
 | :--- | :---: |
-| Throttle Bus Wire | LocoNet[^7] |
-| Throttle Bus Plug | RJ12 Plug |
-| Throttle Bus Socket | RJ12 Socket[^8] |
+| Throttle Bus Wire | LocoNet[^6] |
+| Throttle Bus Plug | RJ25 Plug |
+| Throttle Bus Socket | RJ25 Socket[^7] |
 | Feeder Wire | 16-20 AWG |
 | Main Electrical Bus Wire | 14 AWG |
 | Left (West) Connector | Mounted 'M' |
-| Right (East) Connector | Mounted 'M'[^9] |
+| Right (East) Connector | Mounted 'M'[^8] |
 
-[^7] 6 wire flat phone cable.
-[^8] Digitrax UP5 recommended
-[^9] Optional extension cable terminated by a 'J' connector extending at least 18" beyond the module end.
+[^6]: 6 wire flat phone cable.
+[^7]: Digitrax UP5 recommended (RJ25 is a 6P6C connection).
+[^8]: Optional extension cable terminated by a 'J' connector extending at least 18" beyond the module end.
 
-## AC Power Source Specifications ES 1.2
+### AC Power Source Specifications ES 1.2
 
 | Item | NGM Std. |
 | :--- | :--- |
 | Type | 16VAC tap from Main Electrical Bus |
-| Capacity | 500 mA draw max. [^10] |
+| Capacity | 500 mA draw max. [^9] |
 | Wire Size | 14 AWG on bus, 18 AWG on module |
 
-[^10]: Maximum current available to any one module is subject to total current capacity provided by the power district. See layout coordinator for details or exceptions.
+[^9]: Maximum current available to any one module is subject to total current capacity provided by the power district. See layout coordinator for details or exceptions.
 
-# Electrical Reference
+## Electrical Reference
 
 
-## General Electrical Standards
+### General Electrical Standards
 Each module shall provide and connect to a 14 AWG Main Electrical Bus and shall be wired according to the diagram provided in this document. Branchlines should be isolated from the mainline with plastic insulating rail joiners.
 
-## Wiring
-The Main Electrical Bus shall consist of a nine (9) wire cable forming a robust electrical backbone to which each module is connected by feeders. This cable shall provide three (3) pairs of 14 AWG wire to power two (2) mainlines and one (1) auxiliary mainline, one (1) 14 AWG wire to serve as the DCC booster common and one (1) pair of 14 AWG wires to provide 16VAC for local accessory power needs. See diagram **D-6** for pin wiring and color code.) 
+### Wiring
+The Main Electrical Bus shall consist of a nine (9) wire cable forming a robust electrical backbone mounted on each module and connected to adjoining modules by jumpers. This cable shall provide three (3) pairs of 14 AWG wire to power two (2) mainlines and one (1) auxiliary mainline, one (1) 14 AWG wire to serve as the DCC booster common and one (1) pair of 14 AWG wires to provide 16VAC for local accessory power needs. See diagram **D-6** for pin wiring and color code.) 
 
 Modules shall provide continuous connections for LocoNet even if not needed on the module.
 
 Provisions should be made to ensure that all wiring can be properly stowed for transport (avoid loose hanging wires and connectors).
 
-## Connections
+### Connections
 
 
-### Terminal Strips
+#### Terminal Strips
 All module wiring shall be accessible using a terminal strip between the Main Electrical Bus and the rest of the module. This will allow for easy maintenance, the ability to add non-standard plug assemblies and provide a convenient location for electrical testing.
 
-### Main Electrical Bus Connectors
+#### Main Electrical Bus Connectors
 Bus connections between modules shall use Anderson PowerPole connectors arranged in 3x3 blocks in one of two configurations, 'M' for mounting on a module and 'J' for jumpers between modules or extensions. ('M' blocks connect only to 'J' blocks and vice versa.) Connector shell colors shall correspond to the recommended wiring colors. (Exception to allow a Violet housing to substitute for Brown to improve color contrast.)
 
-The 'M' connection blocks shall be securely mounted within 8" of the module end and within 6" of the front of the module.  If an extension cable is used in place of a mounted 'M' connector, it shall extend at least 18" beyond the East end (right side) of the module.
+The 'M' connection blocks shall be securely mounted within 8" of the module end and within 6" of the front of the module. If an extension cable is used in place of a mounted 'M' connector, it shall extend at least 18" beyond the East end (right side) of the module.
 
 Local wiring (track feeders and AC accessory) shall tap from the 'M' connector block on the West end (left side) and terminate in a nearby terminal strip.
 
 **NGM** will stock the connector housings, contacts and wire for use in members' modules at a nominal fee.
 
-### Plug Adapters
-[remove]
-When connecting to a standard **NMRA** module, an adapter must be used
-to break out the individual mainlines into the 2-pin plugs used by
-**NMRA**. It is intended that **NGM** will have these adapters available
-to members who have followed the **NMRA** standards. *This would be the
-case if a new member joined with an existing module from another club.*
-
-## Branch Line Electrical Isolation
-[remove]
-
-Optional sidings and passing tracks must be electrically isolated if
-analog throttles are used for switching off the mainline. Gaps must be
-installed on both rails. Common-rail wiring is not to be used. Any local
-controls should be mounted on the module. Removable control panels are
-permissible. *(See Branchline Power Connection Diagram **D-5**.)*
-
-The use of plastic rail joiners is preferred over the cut and fill
-method (using epoxy to fill a cut in the rails) when installing
-insulation gaps.
-
-## Provision for Accessory Power
+### Provision for Accessory Power
 The Main Electrical Bus shall provide 16VAC on the black and white wires. Individual modules may use this power source for optional accessories such as lighting, animation and switch machines. Each module is limited to 500 mA current draw, continuous.[^10]
 
-[^10] Exceptions to this limit may be made by the layout coordinator.
+[^10]: Exceptions to this limit may be made by the layout coordinator.
 
