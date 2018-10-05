@@ -5,44 +5,43 @@
 
 
 ### Wiring Color Code Specification ES 1.0
-| Wire Connection | NGM Std. | Anderson Housing |
-| :--- | :---: |
+| **Wire Connection** | **Wire Color** | **Anderson Housing** |
+| :--- | :--- | :--- |
 | S. Main, S. Rail | RED | 1327 Red |
 | S. Main, N. Rail | GRN | 1327G5 Green |
 | N. Main, S. Rail | BLU | 1327G8 Blue |
 | N. Main, N. Rail | YEL | 1327G16 Yellow |
 | Aux. Main, S. Rail | ORG | 1327G17 Orange |
-| Aux. Main, N. Rail | BRN | 1327G23 Violet[^5] |
+| Aux. Main, N. Rail | BRN | 1327G23 Violet[^ES1] |
 | DCC Common | GRY | 1327G18 Gray |
 | 16VAC-1 | BLK | 1327G6 Black |
 | 16VAC-2 | WHT| 1327G7 White |
 
-[^5]: Optional, but not recommended: 1327G21 Brown.
+[^ES1]: Optional, but not recommended due to poor color contrast with Black: 1327G21 Brown.
 
 ### Wire and Plug Specifications ES 1.1
-| Item | NGM Std. |
-| :--- | :---: |
-| Throttle Bus Wire | LocoNet[^6] |
+| **Item** | **NGM Standard** |
+| :--- | :--- |
+| Throttle Bus Wire | LocoNet[^ES2] |
 | Throttle Bus Plug | RJ25 Plug |
-| Throttle Bus Socket | RJ25 Socket[^7] |
+| Throttle Bus Socket | RJ25 Socket[^ES3] |
 | Feeder Wire | 16-20 AWG |
 | Main Electrical Bus Wire | 14 AWG |
 | Left (West) Connector | Mounted 'M' |
-| Right (East) Connector | Mounted 'M'[^8] |
+| Right (East) Connector | Mounted 'M'[^ES4] |
 
-[^6]: 6 wire flat phone cable.
-[^7]: Digitrax UP5 recommended (RJ25 is a 6P6C connection).
-[^8]: Optional extension cable terminated by a 'J' connector extending at least 18" beyond the module end.
+[^ES2]: 6 wire flat phone cable. **Do not use twisted pair cable for LocoNet.**
+[^ES3]: Digitrax UP5 recommended (RJ25 is a 6P6C connection).
+[^ES4]: Optional extension cable terminated by a 'J' connector extending at least 18" beyond the module end.
 
 ### AC Power Source Specifications ES 1.2
-
-| Item | NGM Std. |
+| **Item** | **NGM Standard** |
 | :--- | :--- |
 | Type | 16VAC tap from Main Electrical Bus |
-| Capacity | 500 mA draw max. [^9] |
-| Wire Size | 14 AWG on bus, 18 AWG on module |
+| Capacity | 500 mA draw max. [^ES5] |
+| Wire Size (min) | 14 AWG on bus, 18 AWG on module |
 
-[^9]: Maximum current available to any one module is subject to total current capacity provided by the power district. See layout coordinator for details or exceptions.
+[^ES5]: Maximum current available to any one module is subject to total current capacity provided by the power district. See layout coordinator for details or exceptions.
 
 ## Electrical Reference
 
@@ -51,7 +50,7 @@
 Each module shall provide and connect to a 14 AWG Main Electrical Bus and shall be wired according to the diagram provided in this document. Branchlines should be isolated from the mainline with plastic insulating rail joiners.
 
 ### Wiring
-The Main Electrical Bus shall consist of a nine (9) wire cable forming a robust electrical backbone mounted on each module and connected to adjoining modules by jumpers. This cable shall provide three (3) pairs of 14 AWG wire to power two (2) mainlines and one (1) auxiliary mainline, one (1) 14 AWG wire to serve as the DCC booster common and one (1) pair of 14 AWG wires to provide 16VAC for local accessory power needs. See diagram **D-6** for pin wiring and color code.) 
+The Main Electrical Bus shall consist of a nine (9) wire cable forming a robust electrical backbone mounted on each module and connected to adjoining modules by jumpers. This cable shall provide three (3) pairs of 14 AWG wire to power two (2) mainlines and one (1) auxiliary mainline, one (1) 14 AWG wire to serve as the DCC booster common and one (1) pair of 14 AWG wires to provide 16VAC for local accessory power needs. (See diagram **D-6** for pin wiring and color code.)
 
 Modules shall provide continuous connections for LocoNet even if not needed on the module.
 
@@ -73,7 +72,7 @@ Local wiring (track feeders and AC accessory) shall tap from the 'M' connector b
 **NGM** will stock the connector housings, contacts and wire for use in members' modules at a nominal fee.
 
 ### Provision for Accessory Power
-The Main Electrical Bus shall provide 16VAC on the black and white wires. Individual modules may use this power source for optional accessories such as lighting, animation and switch machines. Each module is limited to 500 mA current draw, continuous.[^10]
+The Main Electrical Bus shall provide 16VAC on the black and white wires. Individual modules may use this power source for optional accessories such as lighting, animation and switch machines. Each module is limited to 500 mA current draw, continuous.[^ES6]
 
-[^10]: Exceptions to this limit may be made by the layout coordinator.
+[^ES6]: Exceptions to this limit may be made by the layout coordinator.
 
