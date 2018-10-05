@@ -6,3 +6,5 @@
 
 # ignore specific generated LaTEX file,
 *NGM_output.tex
+# ignore generated tex files,
+*.tex
