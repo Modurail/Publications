@@ -1,8 +1,10 @@
 # ignore generated html files,
-*.html
+# *.html
  
 # ignore generated docx files,
-*.docx
+# *.docx
 
 # ignore specific generated LaTEX file,
 *NGM_output.tex
+# ignore generated tex files,
+*.tex
