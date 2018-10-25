@@ -775,9 +775,9 @@ $MAXACTVP
   9
 $PINSBASE
  10
-77.05809677928767
+57.52068950777564
  20
-41.6798108106455
+50.16710898279699
  30
 0
   9
@@ -907,7 +907,7 @@ $EXTNAMES
   9
 $PSVPSCALE
  40
-1.75079
+1.73156
   9
 $OLESTARTUP
 290
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-78.61033177621819
+68.26989457340949
  22
-49.11937090076118
+22.62163455779925
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-125.5057941519449
+75.09688403075043
  41
 1.969183359013867
  42
@@ -2269,7 +2269,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+STANDARD
  70
     0
  40
@@ -2283,7 +2283,7 @@ standard
  42
 1
   3
-standard
+STANDARD
   4
 
   0
@@ -2297,7 +2297,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-STANDARD
+standard
  70
     0
  40
@@ -2311,7 +2311,7 @@ STANDARD
  42
 1
   3
-STANDARD
+standard
   4
 
   0
@@ -14653,7 +14653,7 @@ AcDbMText
   1
 White
   7
-STANDARD
+standard
 210
 0
 220
@@ -14699,7 +14699,7 @@ AcDbMText
   1
 Black
   7
-STANDARD
+standard
 210
 0
 220
@@ -14745,7 +14745,7 @@ AcDbMText
   1
 Brown
   7
-STANDARD
+standard
 210
 0
 220
@@ -14791,7 +14791,7 @@ AcDbMText
   1
 Orange
   7
-STANDARD
+standard
 210
 0
 220
@@ -14837,7 +14837,7 @@ AcDbMText
   1
 Yellow
   7
-STANDARD
+standard
 210
 0
 220
@@ -14883,7 +14883,7 @@ AcDbMText
   1
 Blue
   7
-STANDARD
+standard
 210
 0
 220
@@ -14929,7 +14929,7 @@ AcDbMText
   1
 Green
   7
-STANDARD
+standard
 210
 0
 220
@@ -14975,7 +14975,7 @@ AcDbMText
   1
 Red
   7
-STANDARD
+standard
 210
 0
 220
@@ -17523,7 +17523,7 @@ AcDbMText
   1
 N
   7
-STANDARD
+standard
 210
 0
 220
@@ -17569,7 +17569,7 @@ AcDbMText
   1
 N
   7
-STANDARD
+standard
 210
 0
 220
@@ -17615,7 +17615,7 @@ AcDbMText
   1
 N
   7
-STANDARD
+standard
 210
 0
 220
@@ -17661,7 +17661,7 @@ AcDbMText
   1
 S
   7
-STANDARD
+standard
 210
 0
 220
@@ -17707,7 +17707,7 @@ AcDbMText
   1
 S
   7
-STANDARD
+standard
 210
 0
 220
@@ -17753,7 +17753,7 @@ AcDbMText
   1
 S
   7
-STANDARD
+standard
 210
 0
 220
@@ -18055,55 +18055,9 @@ AcDbLine
  21
 62
   0
-MTEXT
-  5
-24D
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-70
- 20
-77
- 30
-0
- 40
-3
- 41
-37.58333796191812
- 71
-    5
- 72
-    1
-  1
-18VAC Accessories
-  7
-STANDARD
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
 LWPOLYLINE
   5
-24E
+24D
 100
 AcDbEntity
   8
@@ -18141,7 +18095,7 @@ AcDbPolyline
   0
 LINE
   5
-24F
+24E
 100
 AcDbEntity
   8
@@ -18165,7 +18119,7 @@ AcDbLine
   0
 LINE
   5
-250
+24F
 100
 AcDbEntity
   8
@@ -18189,7 +18143,7 @@ AcDbLine
   0
 LINE
   5
-251
+250
 100
 AcDbEntity
   8
@@ -18213,7 +18167,7 @@ AcDbLine
   0
 LINE
   5
-252
+251
 100
 AcDbEntity
   8
@@ -18237,7 +18191,7 @@ AcDbLine
   0
 LINE
   5
-253
+252
 100
 AcDbEntity
   8
@@ -18261,7 +18215,7 @@ AcDbLine
   0
 LINE
   5
-254
+253
 100
 AcDbEntity
   8
@@ -18285,7 +18239,7 @@ AcDbLine
   0
 MTEXT
   5
-255
+254
 100
 AcDbEntity
   8
@@ -18331,7 +18285,7 @@ standard
   0
 MTEXT
   5
-256
+255
 100
 AcDbEntity
   8
@@ -18377,7 +18331,7 @@ standard
   0
 MTEXT
   5
-257
+256
 100
 AcDbEntity
   8
@@ -18407,7 +18361,7 @@ AcDbMText
   1
 Aux Track
   7
-STANDARD
+standard
 210
 0
 220
@@ -18423,7 +18377,7 @@ STANDARD
   0
 LINE
   5
-258
+257
 100
 AcDbEntity
   8
@@ -18447,7 +18401,7 @@ AcDbLine
   0
 LINE
   5
-259
+258
 100
 AcDbEntity
   8
@@ -18468,6 +18422,30 @@ AcDbLine
 0
  21
 62
+  0
+LINE
+  5
+259
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-13
+ 20
+62
+ 11
+-13
+ 21
+67
   0
 LINE
   5
@@ -18487,13 +18465,13 @@ AcDbLine
  10
 -13
  20
-62
+67
  11
--13
+0
  21
 67
   0
-LINE
+LWPOLYLINE
   5
 25B
 100
@@ -18507,15 +18485,29 @@ ByLayer
 370
    -1
 100
-AcDbLine
- 10
--13
- 20
-67
- 11
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
 0
- 21
-67
+ 10
+30
+ 20
+2
+ 10
+32
+ 20
+2
+ 10
+32
+ 20
+-1
+ 10
+30
+ 20
+-1
   0
 LWPOLYLINE
   5
@@ -18539,63 +18531,25 @@ AcDbPolyline
  43
 0
  10
-30
+-2
  20
 2
  10
-32
+0
  20
 2
  10
-32
+0
  20
 -1
  10
-30
+-2
  20
 -1
   0
 LWPOLYLINE
   5
 25D
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
-0
- 10
--2
- 20
-2
- 10
-0
- 20
-2
- 10
-0
- 20
--1
- 10
--2
- 20
--1
-  0
-LWPOLYLINE
-  5
-25E
 100
 AcDbEntity
   8
@@ -18633,7 +18587,7 @@ AcDbPolyline
   0
 INSERT
   5
-25F
+25E
 100
 AcDbEntity
   8
@@ -18673,7 +18627,7 @@ Connector1-11
   0
 INSERT
   5
-260
+25F
 100
 AcDbEntity
   8
@@ -18713,7 +18667,7 @@ Connector1-0
   0
 INSERT
   5
-261
+260
 100
 AcDbEntity
   8
@@ -18732,6 +18686,46 @@ Connector1-11
 18.1
  20
 4
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+0
+ 45
+0
+  0
+INSERT
+  5
+261
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+Connector1-11
+ 10
+21.1
+ 20
+10
  30
 0
  41
@@ -18771,7 +18765,7 @@ Connector1-11
  10
 21.1
  20
-10
+7
  30
 0
  41
@@ -18811,7 +18805,7 @@ Connector1-11
  10
 21.1
  20
-7
+4
  30
 0
  41
@@ -18849,9 +18843,9 @@ AcDbBlockReference
   2
 Connector1-11
  10
-21.1
+24.1
  20
-4
+10
  30
 0
  41
@@ -18891,7 +18885,7 @@ Connector1-11
  10
 24.1
  20
-10
+7
  30
 0
  41
@@ -18931,46 +18925,6 @@ Connector1-11
  10
 24.1
  20
-7
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-0
- 45
-0
-  0
-INSERT
-  5
-267
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Connector1-11
- 10
-24.1
- 20
 4
  30
 0
@@ -18990,6 +18944,44 @@ Connector1-11
 0
  45
 0
+  0
+LWPOLYLINE
+  5
+267
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+0
+ 20
+20
+ 10
+30
+ 20
+20
+ 10
+30
+ 20
+-2
+ 10
+0
+ 20
+-2
   0
 LWPOLYLINE
   5
@@ -19013,63 +19005,25 @@ AcDbPolyline
  43
 0
  10
-0
+30
  20
-20
+19
+ 10
+32
+ 20
+19
+ 10
+32
+ 20
+16
  10
 30
  20
-20
- 10
-30
- 20
--2
- 10
-0
- 20
--2
+16
   0
 LWPOLYLINE
   5
 269
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
-0
- 10
-30
- 20
-19
- 10
-32
- 20
-19
- 10
-32
- 20
-16
- 10
-30
- 20
-16
-  0
-LWPOLYLINE
-  5
-26A
 100
 AcDbEntity
   8
@@ -19107,7 +19061,7 @@ AcDbPolyline
   0
 MTEXT
   5
-26B
+26A
 100
 AcDbEntity
   8
@@ -19137,7 +19091,7 @@ AcDbMText
   1
 White
   7
-STANDARD
+standard
 210
 0
 220
@@ -19153,7 +19107,7 @@ STANDARD
   0
 MTEXT
   5
-26C
+26B
 100
 AcDbEntity
   8
@@ -19183,7 +19137,7 @@ AcDbMText
   1
 Black
   7
-STANDARD
+standard
 210
 0
 220
@@ -19199,7 +19153,7 @@ STANDARD
   0
 MTEXT
   5
-26D
+26C
 100
 AcDbEntity
   8
@@ -19229,7 +19183,7 @@ AcDbMText
   1
 Gray
   7
-STANDARD
+standard
 210
 0
 220
@@ -19245,7 +19199,7 @@ STANDARD
   0
 MTEXT
   5
-26E
+26D
 100
 AcDbEntity
   8
@@ -19275,7 +19229,7 @@ AcDbMText
   1
 Brown
   7
-STANDARD
+standard
 210
 0
 220
@@ -19291,7 +19245,7 @@ STANDARD
   0
 MTEXT
   5
-26F
+26E
 100
 AcDbEntity
   8
@@ -19321,7 +19275,7 @@ AcDbMText
   1
 Yellow
   7
-STANDARD
+standard
 210
 0
 220
@@ -19337,7 +19291,7 @@ STANDARD
   0
 MTEXT
   5
-270
+26F
 100
 AcDbEntity
   8
@@ -19367,7 +19321,7 @@ AcDbMText
   1
 Green
   7
-STANDARD
+standard
 210
 0
 220
@@ -19383,7 +19337,7 @@ STANDARD
   0
 MTEXT
   5
-271
+270
 100
 AcDbEntity
   8
@@ -19413,7 +19367,7 @@ AcDbMText
   1
 Blue
   7
-STANDARD
+standard
 210
 0
 220
@@ -19429,7 +19383,7 @@ STANDARD
   0
 MTEXT
   5
-272
+271
 100
 AcDbEntity
   8
@@ -19459,7 +19413,7 @@ AcDbMText
   1
 Red
   7
-STANDARD
+standard
 210
 0
 220
@@ -19475,7 +19429,7 @@ STANDARD
   0
 MTEXT
   5
-273
+272
 100
 AcDbEntity
   8
@@ -19505,7 +19459,7 @@ AcDbMText
   1
 Orange
   7
-STANDARD
+standard
 210
 0
 220
@@ -19521,7 +19475,7 @@ STANDARD
   0
 LINE
   5
-274
+273
 100
 AcDbEntity
   8
@@ -19545,7 +19499,7 @@ AcDbLine
   0
 LINE
   5
-275
+274
 100
 AcDbEntity
   8
@@ -19569,7 +19523,7 @@ AcDbLine
   0
 LINE
   5
-276
+275
 100
 AcDbEntity
   8
@@ -19593,7 +19547,7 @@ AcDbLine
   0
 LINE
   5
-277
+276
 100
 AcDbEntity
   8
@@ -19617,7 +19571,7 @@ AcDbLine
   0
 LINE
   5
-278
+277
 100
 AcDbEntity
   8
@@ -19641,7 +19595,7 @@ AcDbLine
   0
 LINE
   5
-279
+278
 100
 AcDbEntity
   8
@@ -19665,7 +19619,7 @@ AcDbLine
   0
 LINE
   5
-27A
+279
 100
 AcDbEntity
   8
@@ -19689,7 +19643,7 @@ AcDbLine
   0
 LINE
   5
-27B
+27A
 100
 AcDbEntity
   8
@@ -19713,7 +19667,7 @@ AcDbLine
   0
 LINE
   5
-27C
+27B
 100
 AcDbEntity
   8
@@ -19737,7 +19691,7 @@ AcDbLine
   0
 LINE
   5
-27D
+27C
 100
 AcDbEntity
   8
@@ -19761,7 +19715,7 @@ AcDbLine
   0
 LWPOLYLINE
   5
-27E
+27D
 100
 AcDbEntity
   8
@@ -19799,7 +19753,7 @@ AcDbPolyline
   0
 INSERT
   5
-27F
+27E
 100
 AcDbEntity
   8
@@ -19839,7 +19793,7 @@ Connector1-14
   0
 INSERT
   5
-280
+27F
 100
 AcDbEntity
   8
@@ -19879,7 +19833,7 @@ Connector1-0
   0
 INSERT
   5
-281
+280
 100
 AcDbEntity
   8
@@ -19919,7 +19873,7 @@ Connector1-14
   0
 INSERT
   5
-282
+281
 100
 AcDbEntity
   8
@@ -19938,6 +19892,46 @@ Connector1-14
 65.90000000000001
  20
 1
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+180
+ 70
+    1
+ 71
+    1
+ 44
+0
+ 45
+0
+  0
+INSERT
+  5
+282
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+Connector1-14
+ 10
+65.90000000000001
+ 20
+4
  30
 0
  41
@@ -19977,7 +19971,7 @@ Connector1-14
  10
 65.90000000000001
  20
-4
+7
  30
 0
  41
@@ -20015,9 +20009,9 @@ AcDbBlockReference
   2
 Connector1-14
  10
-65.90000000000001
+62.9
  20
-7
+1
  30
 0
  41
@@ -20057,7 +20051,7 @@ Connector1-14
  10
 62.9
  20
-1
+4
  30
 0
  41
@@ -20097,46 +20091,6 @@ Connector1-14
  10
 62.9
  20
-4
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-180
- 70
-    1
- 71
-    1
- 44
-0
- 45
-0
-  0
-INSERT
-  5
-287
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Connector1-14
- 10
-62.9
- 20
 7
  30
 0
@@ -20159,7 +20113,7 @@ Connector1-14
   0
 MTEXT
   5
-288
+287
 100
 AcDbEntity
   8
@@ -20189,7 +20143,7 @@ AcDbMText
   1
 White
   7
-STANDARD
+standard
 210
 0
 220
@@ -20205,7 +20159,7 @@ STANDARD
   0
 MTEXT
   5
-289
+288
 100
 AcDbEntity
   8
@@ -20235,7 +20189,7 @@ AcDbMText
   1
 Black
   7
-STANDARD
+standard
 210
 0
 220
@@ -20251,7 +20205,7 @@ STANDARD
   0
 MTEXT
   5
-28A
+289
 100
 AcDbEntity
   8
@@ -20281,7 +20235,7 @@ AcDbMText
   1
 Gray
   7
-STANDARD
+standard
 210
 0
 220
@@ -20297,7 +20251,7 @@ STANDARD
   0
 MTEXT
   5
-28B
+28A
 100
 AcDbEntity
   8
@@ -20327,7 +20281,7 @@ AcDbMText
   1
 Yellow
   7
-STANDARD
+standard
 210
 0
 220
@@ -20343,7 +20297,7 @@ STANDARD
   0
 MTEXT
   5
-28C
+28B
 100
 AcDbEntity
   8
@@ -20373,7 +20327,7 @@ AcDbMText
   1
 Green
   7
-STANDARD
+standard
 210
 0
 220
@@ -20389,7 +20343,7 @@ STANDARD
   0
 MTEXT
   5
-28D
+28C
 100
 AcDbEntity
   8
@@ -20419,7 +20373,7 @@ AcDbMText
   1
 Blue
   7
-STANDARD
+standard
 210
 0
 220
@@ -20435,7 +20389,7 @@ STANDARD
   0
 MTEXT
   5
-28E
+28D
 100
 AcDbEntity
   8
@@ -20465,7 +20419,7 @@ AcDbMText
   1
 Red
   7
-STANDARD
+standard
 210
 0
 220
@@ -20481,7 +20435,7 @@ STANDARD
   0
 MTEXT
   5
-28F
+28E
 100
 AcDbEntity
   8
@@ -20511,7 +20465,7 @@ AcDbMText
   1
 Orange
   7
-STANDARD
+standard
 210
 0
 220
@@ -20527,7 +20481,7 @@ STANDARD
   0
 LINE
   5
-290
+28F
 100
 AcDbEntity
   8
@@ -20551,7 +20505,7 @@ AcDbLine
   0
 LINE
   5
-291
+290
 100
 AcDbEntity
   8
@@ -20575,7 +20529,7 @@ AcDbLine
   0
 LINE
   5
-292
+291
 100
 AcDbEntity
   8
@@ -20599,7 +20553,7 @@ AcDbLine
   0
 LINE
   5
-293
+292
 100
 AcDbEntity
   8
@@ -20623,7 +20577,7 @@ AcDbLine
   0
 LINE
   5
-294
+293
 100
 AcDbEntity
   8
@@ -20647,7 +20601,7 @@ AcDbLine
   0
 LINE
   5
-295
+294
 100
 AcDbEntity
   8
@@ -20671,7 +20625,7 @@ AcDbLine
   0
 LINE
   5
-296
+295
 100
 AcDbEntity
   8
@@ -20695,7 +20649,7 @@ AcDbLine
   0
 LINE
   5
-297
+296
 100
 AcDbEntity
   8
@@ -20719,7 +20673,7 @@ AcDbLine
   0
 LINE
   5
-298
+297
 100
 AcDbEntity
   8
@@ -20743,7 +20697,7 @@ AcDbLine
   0
 MTEXT
   5
-299
+298
 100
 AcDbEntity
   8
@@ -20773,7 +20727,7 @@ AcDbMText
   1
 "M" Box
   7
-STANDARD
+standard
 210
 0
 220
@@ -20789,7 +20743,7 @@ STANDARD
   0
 MTEXT
   5
-29A
+299
 100
 AcDbEntity
   8
@@ -20819,7 +20773,7 @@ AcDbMText
   1
 "J" Connector
   7
-STANDARD
+standard
 210
 0
 220
@@ -20835,7 +20789,7 @@ STANDARD
   0
 LINE
   5
-29B
+29A
 100
 AcDbEntity
   8
@@ -20859,7 +20813,7 @@ AcDbLine
   0
 LINE
   5
-29C
+29B
 100
 AcDbEntity
   8
@@ -20883,7 +20837,7 @@ AcDbLine
   0
 LINE
   5
-29D
+29C
 100
 AcDbEntity
   8
@@ -20907,7 +20861,7 @@ AcDbLine
   0
 LINE
   5
-29E
+29D
 100
 AcDbEntity
   8
@@ -20931,7 +20885,7 @@ AcDbLine
   0
 MTEXT
   5
-29F
+29E
 100
 AcDbEntity
   8
@@ -20961,7 +20915,7 @@ AcDbMText
   1
 Brown
   7
-STANDARD
+standard
 210
 0
 220
@@ -20977,7 +20931,7 @@ STANDARD
   0
 LINE
   5
-2A0
+29F
 100
 AcDbEntity
   8
@@ -21001,7 +20955,7 @@ AcDbLine
   0
 LINE
   5
-2A1
+2A0
 100
 AcDbEntity
   8
@@ -21022,6 +20976,30 @@ AcDbLine
 0
  21
 57
+  0
+LINE
+  5
+2A1
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-13
+ 20
+47
+ 11
+0
+ 21
+47
   0
 LINE
   5
@@ -21041,11 +21019,11 @@ AcDbLine
  10
 -13
  20
-47
+52
  11
 0
  21
-47
+52
   0
 LINE
   5
@@ -21065,11 +21043,11 @@ AcDbLine
  10
 -13
  20
-52
+42
  11
 0
  21
-52
+42
   0
 LINE
   5
@@ -21089,39 +21067,15 @@ AcDbLine
  10
 -13
  20
-42
+37
  11
 0
  21
-42
+37
   0
 LINE
   5
 2A5
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--13
- 20
-37
- 11
-0
- 21
-37
-  0
-LINE
-  5
-2A6
 100
 AcDbEntity
   8
@@ -21145,7 +21099,7 @@ AcDbLine
   0
 MTEXT
   5
-2A7
+2A6
 100
 AcDbEntity
   8
@@ -21175,7 +21129,7 @@ AcDbMText
   1
 20 AWG \Pto TRACK
   7
-
+STANDARD
 210
 0
 220
@@ -21191,7 +21145,7 @@ AcDbMText
   0
 MTEXT
   5
-2A8
+2A7
 100
 AcDbEntity
   8
@@ -21221,7 +21175,7 @@ AcDbMText
   1
 14 AWG\P9 wire bus
   7
-
+STANDARD
 210
 0
 220
@@ -21237,7 +21191,7 @@ AcDbMText
   0
 LWPOLYLINE
   5
-2A9
+2A8
 100
 AcDbEntity
   8
@@ -21272,6 +21226,30 @@ AcDbPolyline
 90
  20
 10
+  0
+LINE
+  5
+2A9
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+95
+ 20
+20
+ 11
+95
+ 21
+19
   0
 LINE
   5
@@ -21291,9 +21269,9 @@ AcDbLine
  10
 95
  20
-20
+19
  11
-95
+99
  21
 19
   0
@@ -21313,13 +21291,13 @@ ByLayer
 100
 AcDbLine
  10
-95
+99
  20
 19
  11
 99
  21
-19
+11
   0
 LINE
   5
@@ -21339,30 +21317,6 @@ AcDbLine
  10
 99
  20
-19
- 11
-99
- 21
-11
-  0
-LINE
-  5
-2AD
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-99
- 20
 11
  11
 95
@@ -21371,7 +21325,7 @@ AcDbLine
   0
 LINE
   5
-2AE
+2AD
 100
 AcDbEntity
   8
@@ -21395,7 +21349,7 @@ AcDbLine
   0
 LWPOLYLINE
   5
-2AF
+2AE
 100
 AcDbEntity
   8
@@ -21433,7 +21387,7 @@ AcDbPolyline
   0
 LINE
   5
-2B0
+2AF
 100
 AcDbEntity
   8
@@ -21457,7 +21411,7 @@ AcDbLine
   0
 LINE
   5
-2B1
+2B0
 100
 AcDbEntity
   8
@@ -21481,7 +21435,7 @@ AcDbLine
   0
 MTEXT
   5
-2B2
+2B1
 100
 AcDbEntity
   8
@@ -21511,7 +21465,53 @@ AcDbMText
   1
 Reversable colored\PAnderson Connector\Pused on both M and J\Pconnections
   7
-
+STANDARD
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+2B2
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+70
+ 20
+77
+ 30
+0
+ 40
+3
+ 41
+37.5833379619183
+ 71
+    5
+ 72
+    1
+  1
+16VAC Accessories
+  7
+standard
 210
 0
 220
