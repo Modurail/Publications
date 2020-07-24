@@ -1,709 +1,709 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>NGM Module Specifications</title>
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
-  </style>
-  <link rel="stylesheet" href="tufte.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
-</head>
-<body>
-<header id="title-block-header">
-<h1 class="title">NGM Module Specifications</h1>
-</header>
-<nav id="TOC">
-<ul>
-<li><a href="#introduction"><span class="toc-section-number">1</span> Introduction</a></li>
-<li><a href="#electrical"><span class="toc-section-number">2</span> Electrical</a><ul>
-<li><a href="#wiring"><span class="toc-section-number">2.1</span> Wiring</a></li>
-<li><a href="#electrical-connections"><span class="toc-section-number">2.2</span> Electrical Connections</a></li>
-<li><a href="#accessory-power"><span class="toc-section-number">2.3</span> Accessory Power</a></li>
-<li><a href="#electrical-standards-sheets"><span class="toc-section-number">2.4</span> Electrical Standards Sheets</a><ul>
-<li><a href="#wiring-color-code-specification-es-1.0"><span class="toc-section-number">2.4.1</span> Wiring Color Code Specification ES 1.0</a></li>
-<li><a href="#wire-and-plug-specifications-es-1.1"><span class="toc-section-number">2.4.2</span> Wire and Plug Specifications ES 1.1</a></li>
-<li><a href="#ac-power-source-specifications-es-1.2"><span class="toc-section-number">2.4.3</span> AC Power Source Specifications ES 1.2</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#track-work"><span class="toc-section-number">3</span> Track Work</a><ul>
-<li><a href="#track-work-standards-sheet-tws-1"><span class="toc-section-number">3.1</span> Track Work Standards Sheet TWS-1</a></li>
-<li><a href="#track-work-standards-sheet-tws-2"><span class="toc-section-number">3.2</span> Track Work Standards Sheet TWS-2</a></li>
-<li><a href="#track-work-reference"><span class="toc-section-number">3.3</span> Track Work Reference</a></li>
-<li><a href="#track-work-recommended-practices"><span class="toc-section-number">3.4</span> Track Work: Recommended Practices</a></li>
-</ul></li>
-<li><a href="#framework"><span class="toc-section-number">4</span> Framework</a><ul>
-<li><a href="#requirements"><span class="toc-section-number">4.1</span> Requirements</a><ul>
-<li><a href="#frame-dimensions"><span class="toc-section-number">4.1.1</span> Frame Dimensions</a></li>
-</ul></li>
-<li><a href="#recommended-practices"><span class="toc-section-number">4.2</span> Recommended Practices</a></li>
-</ul></li>
-<li><a href="#scenery"><span class="toc-section-number">5</span> Scenery</a><ul>
-<li><a href="#backboard"><span class="toc-section-number">5.1</span> Backboard</a></li>
-</ul></li>
-<li><a href="#diagrams"><span class="toc-section-number">6</span> Diagrams</a><ul>
-<li><a href="#d-1-ngm-track-standard"><span class="toc-section-number">6.1</span> D-1 NGM Track Standard</a></li>
-<li><a href="#d-2-leg-construction"><span class="toc-section-number">6.2</span> D-2 Leg Construction</a></li>
-<li><a href="#d-3-basic-frame-construction"><span class="toc-section-number">6.3</span> D-3 Basic Frame Construction</a></li>
-<li><a href="#d-4-corner-module-dimensions"><span class="toc-section-number">6.4</span> D-4 Corner Module Dimensions</a></li>
-<li><a href="#d-5-wiring-configuration-diagram"><span class="toc-section-number">6.5</span> D-5 Wiring Configuration Diagram</a></li>
-</ul></li>
-<li><a href="#definitions"><span class="toc-section-number">7</span> Definitions</a></li>
-<li><a href="#revision-history"><span class="toc-section-number">8</span> Revision History</a><ul>
-<li><a href="#introduction-1"><span class="toc-section-number">8.1</span> Introduction</a></li>
-<li><a href="#track-work-standards"><span class="toc-section-number">8.2</span> Track Work Standards</a></li>
-<li><a href="#rolling-stock"><span class="toc-section-number">8.3</span> Rolling Stock</a></li>
-<li><a href="#electrical-standards"><span class="toc-section-number">8.4</span> Electrical Standards</a></li>
-<li><a href="#framework-1"><span class="toc-section-number">8.5</span> Framework</a></li>
-<li><a href="#command-control-reference"><span class="toc-section-number">8.6</span> Command Control Reference</a></li>
-</ul></li>
-</ul>
-</nav>
-<p><strong>Adapted from NMRA &amp; Piedmont Division Standards</strong></p>
-<p><strong>NMRA Compatible</strong><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
-<p>Release 5.0</p>
-<p>October, 2018</p>
-<p>© 2018 NGM Club, Inc.</p>
-<p>Copyright 2018 NGM Club, Inc. (with portions copyright 1990, 1994 NMRA Piedmont Division)</p>
-<h1 id="introduction"><span class="header-section-number">1</span> Introduction</h1>
-<p>This document describes the standards, requirements and recommended practices of the <strong>North Georgia Modurail</strong> group (<strong>NGM</strong>)<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. It documents the requirements a module must meet to interchange with other <strong>NGM</strong> modules.</p>
-<p>An <strong>NGM</strong> module is a lightweight, portable, interchangeable section of a larger layout that, when assembled together, forms a layout capable of handling continuously running trains. While mated modules are common, individual modules are considered to be stand-alone dioramas that may be placed anywhere in the layout.</p>
-<p>The intent of these standards is to allow a wide range of individual expression while providing a vehicle for model railroaders to get together to run trains. It provides an excellent method for those with novice skills to learn from more experienced modelers through workshops and operating sessions. It provides a method with which to promote the fellowship of the hobby and to spark an interest in those who don't have their own home layout.</p>
-<h1 id="electrical"><span class="header-section-number">2</span> Electrical</h1>
-<h2 id="wiring"><span class="header-section-number">2.1</span> Wiring</h2>
-<ol>
-<li><p>Each module shall provide and connect to a 14 AWG main power bus and shall be wired according to Diagram <strong>D-6</strong>.</p></li>
-<li><p>The main power bus cable shall consist of nine (9) 14 AWG wires, forming a robust electrical backbone mounted on each module and connected to adjoining modules by jumpers. This cable shall provide power as follows:</p>
-<ol>
-<li><p>two (2) wire pairs to power the mainlines,</p></li>
-<li><p>one (1) wire pair to power the auxiliary mainline,</p></li>
-<li><p>one (1) wire pair to provide 16VAC for local accessory power needs,</p></li>
-<li><p>one (1) single wire to serve as the DCC booster common. (See diagram <strong>D-6</strong> for pin wiring and color code.)</p></li>
-</ol></li>
-<li><p>Branchlines shall be isolated from the mainline with plastic insulating rail joiners.</p></li>
-<li><p>Modules shall provide continuous connections for LocoNet even if not needed on the module.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p></li>
-<li><p>Provisions should be made to ensure that all wiring can be properly stowed for transport (avoid loose hanging wires and connectors).</p></li>
-</ol>
-<h2 id="electrical-connections"><span class="header-section-number">2.2</span> Electrical Connections</h2>
-<ol>
-<li><p>All module wiring shall be accessible using a terminal strip between the main power bus and the rest of the module in order to...</p>
-<ol>
-<li><p>allow for wire maintenance,</p></li>
-<li><p>make it easy to add non-standard interface plug assemblies and,</p></li>
-<li><p>provide a convenient location for electrical testing.</p></li>
-</ol></li>
-<li><p>Bus connections between modules shall use Anderson PowerPole connectors arranged in 3x3 blocks in one of two configurations, 'M' for mounting on a module and 'J' for jumpers between modules or extensions. ('M' blocks connect only to 'J' blocks and vice versa.)</p></li>
-<li><p>Connector shell colors shall correspond to the recommended wire colors.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p></li>
-<li><p>The 'M' connection blocks shall be securely mounted within 8&quot; of the module end and within 6&quot; of the front of the module. If an extension cable is used in place of a mounted 'M' connector, it shall extend at least 18&quot; beyond the East end (right side) of the module.</p></li>
-<li><p>Local wiring (track feeders and AC accessory) shall tap from the 'M' connector block on the West end (left side) and terminate in a nearby terminal strip.</p></li>
-<li><p><strong>NGM</strong> will stock the connector housings, contacts and wire for use in members' modules at a nominal fee.</p></li>
-</ol>
-<h2 id="accessory-power"><span class="header-section-number">2.3</span> Accessory Power</h2>
-<ol>
-<li><p>The main power bus shall provide 16 VAC on the black and white wires.</p></li>
-<li><p>Individual modules may use this power source for optional accessories such as lighting, animation and switch machines.</p></li>
-<li><p>Each module is limited to 500 mA continuous current draw.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></p></li>
-</ol>
-<h2 id="electrical-standards-sheets"><span class="header-section-number">2.4</span> Electrical Standards Sheets</h2>
-<h3 id="wiring-color-code-specification-es-1.0"><span class="header-section-number">2.4.1</span> Wiring Color Code Specification ES 1.0</h3>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Wire Connection</strong></th>
-<th style="text-align: left;"><strong>Wire Color</strong></th>
-<th style="text-align: left;"><strong>Anderson Housing</strong><a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">S. Main, S. Rail</td>
-<td style="text-align: left;">RED</td>
-<td style="text-align: left;">1327 Red</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">S. Main, N. Rail</td>
-<td style="text-align: left;">GRN</td>
-<td style="text-align: left;">1327G5 Green</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">N. Main, S. Rail</td>
-<td style="text-align: left;">BLU</td>
-<td style="text-align: left;">1327G8 Blue</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">N. Main, N. Rail</td>
-<td style="text-align: left;">YEL</td>
-<td style="text-align: left;">1327G16 Yellow</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Aux. Main, S. Rail</td>
-<td style="text-align: left;">ORG</td>
-<td style="text-align: left;">1327G17 Orange</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Aux. Main, N. Rail</td>
-<td style="text-align: left;">BRN</td>
-<td style="text-align: left;">1327G23 Violet<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">DCC Common</td>
-<td style="text-align: left;">GRY</td>
-<td style="text-align: left;">1327G18 Gray</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">16VAC-1</td>
-<td style="text-align: left;">BLK</td>
-<td style="text-align: left;">1327G6 Black</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">16VAC-2</td>
-<td style="text-align: left;">WHT</td>
-<td style="text-align: left;">1327G7 White</td>
-</tr>
-</tbody>
-</table>
-<h3 id="wire-and-plug-specifications-es-1.1"><span class="header-section-number">2.4.2</span> Wire and Plug Specifications ES 1.1</h3>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Item</strong></th>
-<th style="text-align: left;"><strong>NGM Standard</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Throttle Bus Wire</td>
-<td style="text-align: left;">LocoNet<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Throttle Bus Plug</td>
-<td style="text-align: left;">RJ25 Plug</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Throttle Bus Socket<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a></td>
-<td style="text-align: left;">RJ25 Socket (jack)<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Feeder Wire</td>
-<td style="text-align: left;">16-20 AWG</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Main Electrical Bus Wire</td>
-<td style="text-align: left;">14 AWG</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Left (West) Connector</td>
-<td style="text-align: left;">Mounted 'M'</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Right (East) Connector</td>
-<td style="text-align: left;">Mounted 'M'<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a></td>
-</tr>
-</tbody>
-</table>
-<h3 id="ac-power-source-specifications-es-1.2"><span class="header-section-number">2.4.3</span> AC Power Source Specifications ES 1.2</h3>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Item</strong></th>
-<th style="text-align: left;"><strong>NGM Standard</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Type</td>
-<td style="text-align: left;">16VAC tap from Main Electrical Bus</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Capacity</td>
-<td style="text-align: left;">500 mA draw max. <a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Wire Size (min)</td>
-<td style="text-align: left;">14 AWG on bus, 20 AWG on module<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a></td>
-</tr>
-</tbody>
-</table>
-<h1 id="track-work"><span class="header-section-number">3</span> Track Work</h1>
-<p>The <strong>NGM</strong> Standards are derived from the <strong>Piedmont Division Standards</strong> and have been modified to suit the operating conditions of <strong>NGM</strong>.</p>
-<h2 id="track-work-standards-sheet-tws-1"><span class="header-section-number">3.1</span> Track Work Standards Sheet TWS-1</h2>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Item</strong></th>
-<th style="text-align: left;"><strong>NGM Standard</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Type</td>
-<td style="text-align: left;">Hand laid or Commercial</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Size</strong></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Mainline</td>
-<td style="text-align: left;">HO Code 100</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Auxiliary</td>
-<td style="text-align: left;">HO Code 100</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Other</td>
-<td style="text-align: left;">HO Code 70 (minimum)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Set Backs</strong></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">East/West Ends</td>
-<td style="text-align: left;">0&quot;</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Mainline #1<a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a></td>
-<td style="text-align: left;">5&quot;</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Mainline #2</td>
-<td style="text-align: left;">7&quot;</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Auxiliary</td>
-<td style="text-align: left;">9 ½&quot;</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Track Centerline Spacing</strong></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Mainlines #1 &amp; #2</td>
-<td style="text-align: left;">2&quot;</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Auxiliary to Main #2</td>
-<td style="text-align: left;">2 ½&quot; minimum</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Curves</td>
-<td style="text-align: left;">2 ½&quot; minimum<a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Elevation</td>
-<td style="text-align: left;">40&quot; from floor to top of rail.<a href="#fn16" class="footnote-ref" id="fnref16"><sup>16</sup></a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="track-work-standards-sheet-tws-2"><span class="header-section-number">3.2</span> Track Work Standards Sheet TWS-2</h2>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Item</strong></th>
-<th style="text-align: left;"><strong>NGM Standard</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>Horizontal Clearances</strong><a href="#fn17" class="footnote-ref" id="fnref17"><sup>17</sup></a></td>
-<td style="text-align: left;">Minimum</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Straight Track</td>
-<td style="text-align: left;">1 1/32&quot;</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Curved Track</td>
-<td style="text-align: left;">1 ¼&quot; <a href="#fn18" class="footnote-ref" id="fnref18"><sup>18</sup></a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Vertical Clearance</td>
-<td style="text-align: left;">3&quot;</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Parallel Tangent Track</td>
-<td style="text-align: left;">3&quot;</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Grades</strong></td>
-<td style="text-align: left;">Maximum</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Mainline</td>
-<td style="text-align: left;">0%</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Auxiliary</td>
-<td style="text-align: left;">0%</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Branch Line</td>
-<td style="text-align: left;">3%</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Turnouts</strong></td>
-<td style="text-align: left;">Minimum Size</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Main</td>
-<td style="text-align: left;">#6<a href="#fn19" class="footnote-ref" id="fnref19"><sup>19</sup></a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Auxiliary</td>
-<td style="text-align: left;">#6</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Branch Line</td>
-<td style="text-align: left;">#4</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Curve Radius on Corner Module</strong></td>
-<td style="text-align: left;">Minimum</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Mainline</td>
-<td style="text-align: left;">36 5/8&quot;<a href="#fn20" class="footnote-ref" id="fnref20"><sup>20</sup></a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Auxiliary</td>
-<td style="text-align: left;">34 1/8&quot;</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Branch Line</td>
-<td style="text-align: left;">32&quot;</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Curve Radius on Straight Module</strong></td>
-<td style="text-align: left;">Minimum</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Mainline</td>
-<td style="text-align: left;">32&quot;</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Auxiliary</td>
-<td style="text-align: left;">29 ½&quot;</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Branch Line</td>
-<td style="text-align: left;">18&quot;</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Other</strong></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Uncouplers</td>
-<td style="text-align: left;">Permanent magnet may not be used on mainlines.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="track-work-reference"><span class="header-section-number">3.3</span> Track Work Reference</h2>
-<p>The following track work information applies to all <strong>NGM</strong> modules. They apply regardless of size or type.</p>
-<dl>
-<dt>Track Work Requirements</dt>
-<dd>To be compatible with existing <strong>NGM</strong> modules, it is a requirement that one adhere to the <strong>NGM</strong> Standard.
-</dd>
-<dt>Switch Machines</dt>
-<dd>Manual ground throws or electrical switch machines may be used to control switch position.
-</dd>
-<dd>All switch devices shall positively lock the switch machine in either position when set.
-</dd>
-<dt>Mainlines</dt>
-<dd>Two mainlines shall be required, located as shown in diagram <strong>D-1</strong>.
-</dd>
-<dd>The club supports modules that provide an auxiliary mainline (Track 3) but it is not required.
-</dd>
-<dt>Module Interface Tracks</dt>
-<dd>The <strong>NGM</strong> track end standard negates the need for interface (bridge) tracks.
-</dd>
-</dl>
-<h2 id="track-work-recommended-practices"><span class="header-section-number">3.4</span> Track Work: Recommended Practices</h2>
-<dl>
-<dt>Uncouplers</dt>
-<dd><strong>Kadee's</strong> #307 (switched) electromagnetic uncoupler (or equivalent) is acceptable on the mainline tracks, so long as it is properly installed and does not interfere with the passage of trains.
-</dd>
-<dt>Through Tracks</dt>
-<dd>The minimum required number of through tracks is 2.
-</dd>
-<dd>An auxiliary through track should be considered to allow for a third mainline.
-</dd>
-<dd>When providing information about your module, please provide the auxiliary track type, that is, Mainline #3 or branch line.
-</dd>
-<dd>Providing for the third mainline remains optional.
-</dd>
-<dt>Rail Code Transitions</dt>
-<dd>Use of code 83 rail or smaller should have a 2 ½&quot; transition track before meeting with mainline code 100 rail. (<em>Transition should not occur at a switch joint.</em>)
-</dd>
-<dt>Switches (Turnouts)</dt>
-<dd>Switches with positive locking action are preferred over the more common slide action switches.
-</dd>
-<dd>This style mechanism is most commonly found on switches made by <strong>PECO</strong>.
-</dd>
-<dd>If a switch without positive lock is installed, it is highly recommended that it be driven by a switch machine that resists accidental movement; for example, a Tortoise© motor driven switch machine.
-</dd>
-</dl>
-<h1 id="framework"><span class="header-section-number">4</span> Framework</h1>
-<ol>
-<li><p>The specifications for module sizes are relatively strict. The following describes the minimum requirements and recommended practices for module framework construction.</p></li>
-<li><p>Modules will be checked annually to ensure conformance to specifications following the <strong>NGM</strong> Module Compliance Audit Form. Conforming modules will display a dated sticker which will provide sufficient proof of compliance.</p></li>
-<li><p>As of this revision, the <strong>NGM</strong> standards committee has not approved the use of transition modules to allow for the inclusion of non-conforming modules.</p></li>
-</ol>
-<h2 id="requirements"><span class="header-section-number">4.1</span> Requirements</h2>
-<ol>
-<li><p>For consistency with existing modules, module frame sides and ends shall be made with 1x4 lumber<a href="#fn21" class="footnote-ref" id="fnref21"><sup>21</sup></a> (¾&quot; x 3 ½&quot; finished) such as common pine or high quality plywood. It shall be straight, solid and free of knots, sanded smooth prior to finishing and painting.</p></li>
-<li><p>Frame corners must be square.</p></li>
-<li><p>All visible framework shall be painted with Ace Hardware Forest Green interior latex paint (or approved equivalent).</p></li>
-<li><p>Some provision shall be provided for hanging decorative curtain or skirting<a href="#fn22" class="footnote-ref" id="fnref22"><sup>22</sup></a> on both outside and inside<a href="#fn23" class="footnote-ref" id="fnref23"><sup>23</sup></a> facing frames.<a href="#fn24" class="footnote-ref" id="fnref24"><sup>24</sup></a></p></li>
-<li><p>The side frames shall have alignment holes made using a standard drilling template.<a href="#fn25" class="footnote-ref" id="fnref25"><sup>25</sup></a></p></li>
-<li><p>During layout setup, metal pins provide proper alignment to adjoining modules.<a href="#fn26" class="footnote-ref" id="fnref26"><sup>26</sup></a> (Diagram pending.)</p></li>
-<li><p>Modules are securely joined by 3&quot; C-clamps. Provision must be made to clamp to any other module whose side frame is a standard 1x4. Two clamps are required for each module end and are typically provided by the club. Two clamps are required to allow front to back track alignment.</p></li>
-</ol>
-<h3 id="frame-dimensions"><span class="header-section-number">4.1.1</span> Frame Dimensions</h3>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Dimension</strong></th>
-<th style="text-align: left;"><strong>Min.</strong></th>
-<th style="text-align: left;"><strong>Max.</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Leg Height</td>
-<td style="text-align: left;">N/A</td>
-<td style="text-align: left;">Adjust with eye bolt to reach 40&quot; at rail.<a href="#fn27" class="footnote-ref" id="fnref27"><sup>27</sup></a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Length</td>
-<td style="text-align: left;">24&quot;</td>
-<td style="text-align: left;">96&quot; (in 24&quot; increments)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Depth</td>
-<td style="text-align: left;">18&quot;</td>
-<td style="text-align: left;">36&quot;</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Height</td>
-<td style="text-align: left;">3 ½&quot;</td>
-<td style="text-align: left;">N/A</td>
-</tr>
-</tbody>
-</table>
-<h2 id="recommended-practices"><span class="header-section-number">4.2</span> Recommended Practices</h2>
-<ol>
-<li><p>Frame pieces shall be joined with screws and glue.</p></li>
-<li><p>Only glue on the inside of the framework to eliminate visible residue from the frame exterior.</p></li>
-<li><p>If a handle is attached to the module, it shall be on the north side of the module (inside face).</p></li>
-<li><p>Legs should be removable and have a T-nut or threaded insert and eye bolt installed on the floor side to allow for rail height adjustments.</p></li>
-</ol>
-<h1 id="scenery"><span class="header-section-number">5</span> Scenery</h1>
-<ol>
-<li><p>The scenery design, style, colors and details are at the module owner's discretion.</p></li>
-<li><p>Each module may be a stand-alone diorama or belong to a set of modules that make up a mated set.</p></li>
-<li><p>The club does not mandate scenery styles nor contents.</p></li>
-<li><p>As a general guideline, a majority of <strong>NGM</strong> modelers follow a modern, late 1960's to 90's theme.</p></li>
-</ol>
-<h2 id="backboard"><span class="header-section-number">5.1</span> Backboard</h2>
-<ol>
-<li><p>Each module will have a backboard (sky board) that extends 14&quot; above the rear side rail.</p></li>
-<li><p>It shall be 1/8&quot; shorter than the module on each end to avoid interference with adjoining modules.</p></li>
-<li><p>The backboard may be permanently attached but is recommended that it be removable for ease of transportation and exhibit flexibility.<a href="#fn28" class="footnote-ref" id="fnref28"><sup>28</sup></a> (See diagram D-3 for placement.)</p></li>
-<li><p>The bottom of the backboard shall provide sufficient clearance for attaching the decorative skirting.</p></li>
-<li><p>The backboard must be painted on both sides. <strong>NGM</strong> recommends Sherwin Williams Universe Blue (or approved equivalent) for the front (outside face) of the backboard.</p></li>
-<li><p>Paint the inside face of the backboard with the same green paint used for the frame (refer to section 5.2.)</p></li>
-</ol>
-<h1 id="diagrams"><span class="header-section-number">6</span> Diagrams</h1>
-<h2 id="d-1-ngm-track-standard"><span class="header-section-number">6.1</span> D-1 NGM Track Standard</h2>
-<p>This diagram illustrates the recommended track layout.<a href="#fn29" class="footnote-ref" id="fnref29"><sup>29</sup></a></p>
-<figure>
-<img src="Drawings\D-1%20Track%20Standard.png" title="Track Standard" alt="Track Standard" /><figcaption>Track Standard</figcaption>
-</figure>
-<h2 id="d-2-leg-construction"><span class="header-section-number">6.2</span> D-2 Leg Construction</h2>
-<p>This diagram illustrates the recommended method for making module legs.</p>
-<figure>
-<img src="Drawings\D-2%20Leg%20Construction.png" title="Leg Construction" alt="Leg Construction" /><figcaption>Leg Construction</figcaption>
-</figure>
-<h2 id="d-3-basic-frame-construction"><span class="header-section-number">6.3</span> D-3 Basic Frame Construction</h2>
-<p>This diagram illustrates the recommended method for making a standard, straight module.<a href="#fn30" class="footnote-ref" id="fnref30"><sup>30</sup></a></p>
-<figure>
-<img src="Drawings\D-3%20Basic%20Frame.png" title="Basic Frame Construction" alt="Basic Frame Construction" /><figcaption>Basic Frame Construction</figcaption>
-</figure>
-<figure>
-<img src="Drawings\D-3.2%20Frame%20Clamp.png" title="Frame Clamp" alt="Frame Clamp" /><figcaption>Frame Clamp</figcaption>
-</figure>
-<h2 id="d-4-corner-module-dimensions"><span class="header-section-number">6.4</span> D-4 Corner Module Dimensions</h2>
-<p>Showing exterior frame dimensions and track placement only.<a href="#fn31" class="footnote-ref" id="fnref31"><sup>31</sup></a></p>
-<figure>
-<img src="Drawings\D-4%20Corner%20Module.png" title="Corner Module" alt="Corner Module" /><figcaption>Corner Module</figcaption>
-</figure>
-<h2 id="d-5-wiring-configuration-diagram"><span class="header-section-number">6.5</span> D-5 Wiring Configuration Diagram</h2>
-<p>Showing wire color code and connector configurations.</p>
-<figure>
-<img src="Drawings\D-6%20Wiring%20Configuration.png" title="Wiring Configuration" alt="Wiring Configuration" /><figcaption>Wiring Configuration</figcaption>
-</figure>
-<h1 id="definitions"><span class="header-section-number">7</span> Definitions</h1>
-<dl>
-<dt>AWG</dt>
-<dd>AWG refers to &quot;American Wire Gauge&quot;. It is a standard that defines electrical wire sizes by a numerical value. The word &quot;<strong><em>gauge</em></strong>&quot; is commonly used when referring to a wire size.
-</dd>
-<dd><strong>For the technical types:</strong>, 14 gauge wire is 1.628 mm in diameter and has the ability to conduct 17 amps of electrical current while only having 2 ohms of resistance per 1000 feet.
-</dd>
-<dt>Auxiliary Track</dt>
-<dd>Auxiliary lines serve as an optional third mainline when possible. When used as a mainline, it must be installed with the same standards as the other mainlines. An auxiliary track is always parallel to the mainline at a 2 ½&quot; center from mainline #2 and is also called Mainline #3. When used as a siding, branch line standards apply and it may not be considered as a third mainline if it deviates from the mainline standard.
-</dd>
-<dt>Branch Lines</dt>
-<dd>These lines are optional on all modules. They must conform to all <strong>NGM</strong> electrical and interface standards. They must also be insulated from the mainline if a local analog throttle is to be used while the mainline is active.
-</dd>
-<dt>Bridge Track</dt>
-<dd>A connecting, removable track section used to join the tracks between modules. The interface area has been sized to allow standard sectional track parts to be inserted between modules. (Also known as an Interface Track.)<a href="#fn32" class="footnote-ref" id="fnref32"><sup>32</sup></a>
-</dd>
-</dl>
-<dl>
-<dt>Center Spacing</dt>
-<dd>The distance between the centerlines of parallel tracks.
-</dd>
-<dt>Conforming Modules</dt>
-<dd>Modules that are freely interchangeable in every way with all other conforming modules built to these standards. Conformity shall be determined by the <strong>NGM</strong> Conformance Committee.
-</dd>
-<dt>DCC</dt>
-<dd><strong>Digital Command Control (DCC)</strong>. The <strong>NGM</strong> standard incorporates <strong>NMRA</strong> approved standards for <strong>DCC</strong> operation. <strong>DCC</strong> allows for independent selection and control of engines by sending commands over the rails to miniature microprocessors installed in the engine bodies. The <strong>NGM</strong> electrical standard requires a telephone style jack to connect the hand-held controller.
-</dd>
-<dt>East End</dt>
-<dd>This is the right-hand end of the module as seen from the front (the normal viewing side).
-</dd>
-<dt>West End</dt>
-<dd>This is the left-hand end of the module as seen from the front (the normal viewing side).
-</dd>
-<dt>Interface Area</dt>
-<dd>Any portion of the module within 3&quot; from the East and West ends of the module. <em>(See the Interface Area diagram.)</em> The Interface Area is considerably restricted by the <strong>NGM</strong> standards to ensure that modules are interchangeable and operations are smooth.
-</dd>
-<dt>Mainline Track</dt>
-<dd>The standard defines the mainline as two tracks running the length of the module, not including the interface area, that provide eastbound and westbound operation of trains. The mainline is restricted to 5&quot; and 7&quot; centerlines from the front of the module (in the interface area) with some optional variations. The mainline also has strict radius, grade and turnout restrictions to ensure smooth operation.
-</dd>
-<dt>Mated Set</dt>
-<dd>Any group of modules in which the individual modules <em>cannot</em> be used separately for some reason. Mated Sets typically consist of modules that do not conform to our interface standards between themselves, but conform to the interface standards at both ends of the set.
-</dd>
-<dd>A variation of a mated set is a group of modules that fully conform to our interface standards but are designed to be joined together due to scene continuity or optional interface area track connections that provide multi module continuity. <em>(Commonly seen in intermodal yard modules.)</em>
-</dd>
-<dt>Module</dt>
-<dd>A module is a portable section of a table-like frame work which is one part of a large group of similar modules that, when assembled together forms a large and fully operating model railroad. They are built by individuals as part of a home layout or specifically for interfacing with others in a large setup. All are built to a set of standards that allow each unit to interface exactly with other units anywhere in the overall system. A module may be a single frame or a set of frames that interface with other modules in a standard manner but that may deviate from the interface standard between ends (<em>see Interface Area.</em>) By being portable, they may be disassembled-assembled for transporting to conventions or public displays. Many clubs are formed for the specific purpose of building module layouts as space for permanent layouts is hard to find and very expensive when available. <strong>NGM</strong> is such a club.
-</dd>
-<dt>Non-conforming Module</dt>
-<dd>Modules that are not built to these standards (in either track arrangement or electrical wiring methods) and therefore not directly compatible with the system as outlined here.
-</dd>
-<dt>Non-Interface Area</dt>
-<dd>Any portion of the module not within the interface area. Restrictions within the non-interface area are minimal, although extreme variations in grade, turn radius, and track gauge could render the module undesirable.
-</dd>
-<dt>Route Convention</dt>
-<dd>The southern most mainline (mainline #1) usually runs eastward and the next parallel mainline usually runs westward. The auxiliary mainline direction is not defined. <strong>NOTE:</strong> The viewing side of the module is the south side.
-</dd>
-</dl>
-<h1 id="revision-history"><span class="header-section-number">8</span> Revision History</h1>
-<p>Showing only substantive changes from 4.1 to 5.0 here.<a href="#fn33" class="footnote-ref" id="fnref33"><sup>33</sup></a></p>
-<h2 id="introduction-1"><span class="header-section-number">8.1</span> Introduction</h2>
-<p>Updated copyrights and minor editorial changes to the document introduction.</p>
-<h2 id="track-work-standards"><span class="header-section-number">8.2</span> Track Work Standards</h2>
-<dl>
-<dt>Set Backs</dt>
-<dd>East/West Ends reduced from 1 ½&quot; to 0&quot;.
-</dd>
-<dt>Centerline Spacing</dt>
-<dd>Eliminated duplication of Interface and Non-Interface areas.
-</dd>
-<dt>Interface Track Length</dt>
-<dd>Deleted as no longer necessary.
-</dd>
-</dl>
-<h2 id="rolling-stock"><span class="header-section-number">8.3</span> Rolling Stock</h2>
-<p>Removed the <strong>Rolling Stock</strong> section as it is more appropriate in an Operations Guideline document.</p>
-<h2 id="electrical-standards"><span class="header-section-number">8.4</span> Electrical Standards</h2>
-<dl>
-<dt>2.0.1</dt>
-<dd>Removed references to NMRA and old NGM standards.
-</dd>
-<dd>Replace Pin # with Anderson Housing number.
-</dd>
-<dd>Changed 18VAC to 16VAC.
-</dd>
-<dt>2.0.2</dt>
-<dd>Removed references to NMRA and old NGM standards.
-</dd>
-<dd>Updated to reflect the use of Anderson connectors.
-</dd>
-<dt>2.0.3</dt>
-<dd>Removed references to NMRA and old NGM standards.
-</dd>
-<dd>Removed Orientation line.
-</dd>
-<dt>2.1.1, 2.1.2, 2.1.3.1, 2.1.3.2</dt>
-<dd>Rewritten for Anderson connectors instead of ATA 9-pin connector.
-</dd>
-<dt>2.1.3.4</dt>
-<dd>Removed.
-</dd>
-<dt>2.1.4</dt>
-<dd>Removed reference to branch line analog isolation.
-</dd>
-<dt>2.1.5</dt>
-<dd>Changed 18 VAC to 16 VAC.
-</dd>
-</dl>
-<h2 id="framework-1"><span class="header-section-number">8.5</span> Framework</h2>
-<dl>
-<dt>3.1</dt>
-<dd>Added requirement to enable attachment of skirting on inside facing frame.
-</dd>
-</dl>
-<h2 id="command-control-reference"><span class="header-section-number">8.6</span> Command Control Reference</h2>
-<p>Removed the <strong>Command Control</strong> section as it is better suited to a general reference document.</p>
-<section class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>NMRA compliant modules may be easily integrated into <strong>NGM</strong> layouts with some minor adaptations to the electrical connections.<a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>The official name is <strong>NGM Club, Inc.</strong><a href="#fnref2" class="footnote-back">↩</a></p></li>
-<li id="fn3"><p>Use either an approved RJ25 (6P6C) inline coupler or a UP-5 'daisy-chain'.<a href="#fnref3" class="footnote-back">↩</a></p></li>
-<li id="fn4"><p>Exception to allow a Violet housing to substitute for Brown to improve color contrast.<a href="#fnref4" class="footnote-back">↩</a></p></li>
-<li id="fn5"><p>The layout coordinator may allow exceptions to this limit.<a href="#fnref5" class="footnote-back">↩</a></p></li>
-<li id="fn6"><p>The housing color prefix is the Anderson PowerPole manufacturer ID for the shell.<a href="#fnref6" class="footnote-back">↩</a></p></li>
-<li id="fn7"><p>1327G21 Brown is allowed, but not recommended due to poor color contrast with Black.<a href="#fnref7" class="footnote-back">↩</a></p></li>
-<li id="fn8"><p>6 wire flat phone cable. <strong>Do not use twisted pair cable for LocoNet.</strong><a href="#fnref8" class="footnote-back">↩</a></p></li>
-<li id="fn9"><p>RJ25 is a 6P6C connection and at least one is required mounted on the front face (recommended on the East end).<a href="#fnref9" class="footnote-back">↩</a></p></li>
-<li id="fn10"><p>The Digitrax UP5 is recommended.<a href="#fnref10" class="footnote-back">↩</a></p></li>
-<li id="fn11"><p>Optional extension cable terminated by a 'J' connector extending at least 18&quot; beyond the module end.<a href="#fnref11" class="footnote-back">↩</a></p></li>
-<li id="fn12"><p>Maximum current available to any one module is subject to total current capacity provided by the power district. See layout coordinator for details or exceptions.<a href="#fnref12" class="footnote-back">↩</a></p></li>
-<li id="fn13"><p>Used for local, short length track feeders.<a href="#fnref13" class="footnote-back">↩</a></p></li>
-<li id="fn14"><p>From front edge of module.<a href="#fnref14" class="footnote-back">↩</a></p></li>
-<li id="fn15"><p>At all points except transition to 2&quot; approaching parallel track.<a href="#fnref15" class="footnote-back">↩</a></p></li>
-<li id="fn16"><p>Mainline railheads within interface area. Must be adjustable from 39&quot; to 41&quot;.<a href="#fnref16" class="footnote-back">↩</a></p></li>
-<li id="fn17"><p>Horizontal clearances are from track center. Refer to NMRA Standards S-7 and S-8, Revised Aug. 1982.<a href="#fnref17" class="footnote-back">↩</a></p></li>
-<li id="fn18"><p>Refer to S-8, Class Ia for track radius of 32&quot;.<a href="#fnref18" class="footnote-back">↩</a></p></li>
-<li id="fn19"><p>Use of PECO medium is acceptable.<a href="#fnref19" class="footnote-back">↩</a></p></li>
-<li id="fn20"><p>Mainline tracks 1 &amp; 2 may have the same radius as long as the tangent and centerpoint offsets allow for at least a 2 ½&quot; separation in the curve.<a href="#fnref20" class="footnote-back">↩</a></p></li>
-<li id="fn21"><p>Note that if Tortoise© switch machines are to be installed, standard 1x4 lumber will not provide adequate depth to protect them from damage.<a href="#fnref21" class="footnote-back">↩</a></p></li>
-<li id="fn22"><p>NGM usually provides the skirting depending on the exhibit needs.<a href="#fnref22" class="footnote-back">↩</a></p></li>
-<li id="fn23"><p>Ensure the backboard does not interfere with the skirting attachment.<a href="#fnref23" class="footnote-back">↩</a></p></li>
-<li id="fn24"><p>A 3/4&quot; Velcro© strip (hook side) is recommended.<a href="#fnref24" class="footnote-back">↩</a></p></li>
-<li id="fn25"><p>NGM makes a drilling template available for initial module construction.<a href="#fnref25" class="footnote-back">↩</a></p></li>
-<li id="fn26"><p>NGM provides the metal alignment pins as needed during layout setup.<a href="#fnref26" class="footnote-back">↩</a></p></li>
-<li id="fn27"><p>Must be adjustable from 39&quot; to 41&quot;. See Diagram <strong>D-2</strong> (Leg Construction) for details.<a href="#fnref27" class="footnote-back">↩</a></p></li>
-<li id="fn28"><p>The layout coordinator will decide if backboards are optional or mandatory, given the requirements of a specific display or exhibit.<a href="#fnref28" class="footnote-back">↩</a></p></li>
-<li id="fn29"><p>Consult <strong>NGM</strong> for construction details.<a href="#fnref29" class="footnote-back">↩</a></p></li>
-<li id="fn30"><p>Consult <strong>NGM</strong> for construction details.<a href="#fnref30" class="footnote-back">↩</a></p></li>
-<li id="fn31"><p>Consult <strong>NGM</strong> for construction details.<a href="#fnref31" class="footnote-back">↩</a></p></li>
-<li id="fn32"><p>As of Release 5.0, bridge tracks are only used to connect non-standard or legacy modules.<a href="#fnref32" class="footnote-back">↩</a></p></li>
-<li id="fn33"><p>Refer to earlier releases for prior changes.<a href="#fnref33" class="footnote-back">↩</a></p></li>
-</ol>
-</section>
-</body>
+    <head>
+      <meta charset="utf-8" />
+      <meta name="generator" content="pandoc" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+      <title>NGM Module Specifications</title>
+          <style type="text/css">
+              code{white-space: pre-wrap;}
+              span.smallcaps{font-variant: small-caps;}
+              span.underline{text-decoration: underline;}
+              div.column{display: inline-block; vertical-align: top; width: 50%;}
+          </style>
+          <link rel="stylesheet" href="tufte.css" />
+          <!--[if lt IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+          <![endif]-->
+    </head>
+    <body>
+    <header id="title-block-header">
+    <h1 class="title">NGM Module Specifications</h1>
+    </header>
+    <nav id="TOC">
+        <ul>
+        <li><a href="#introduction"><span class="toc-section-number">1</span> Introduction</a></li>
+            <li><a href="#electrical"><span class="toc-section-number">2</span> Electrical</a><ul>
+            <li><a href="#wiring"><span class="toc-section-number">2.1</span> Wiring</a></li>
+            <li><a href="#electrical-connections"><span class="toc-section-number">2.2</span> Electrical Connections</a></li>
+            <li><a href="#accessory-power"><span class="toc-section-number">2.3</span> Accessory Power</a></li>
+                <li><a href="#electrical-standards-sheets"><span class="toc-section-number">2.4</span> Electrical Standards Sheets</a><ul>
+                <li><a href="#wiring-color-code-specification-es-1.0"><span class="toc-section-number">2.4.1</span> Wiring Color Code Specification ES 1.0</a></li>
+                <li><a href="#wire-and-plug-specifications-es-1.1"><span class="toc-section-number">2.4.2</span> Wire and Plug Specifications ES 1.1</a></li>
+                <li><a href="#ac-power-source-specifications-es-1.2"><span class="toc-section-number">2.4.3</span> AC Power Source Specifications ES 1.2</a></li>
+                </ul></li>
+            </ul></li>
+            <li><a href="#track-work"><span class="toc-section-number">3</span> Track Work</a><ul>
+            <li><a href="#track-work-standards-sheet-tws-1"><span class="toc-section-number">3.1</span> Track Work Standards Sheet TWS-1</a></li>
+            <li><a href="#track-work-standards-sheet-tws-2"><span class="toc-section-number">3.2</span> Track Work Standards Sheet TWS-2</a></li>
+            <li><a href="#track-work-reference"><span class="toc-section-number">3.3</span> Track Work Reference</a></li>
+            <li><a href="#track-work-recommended-practices"><span class="toc-section-number">3.4</span> Track Work: Recommended Practices</a></li>
+            </ul></li>
+            <li><a href="#framework"><span class="toc-section-number">4</span> Framework</a><ul>
+                <li><a href="#requirements"><span class="toc-section-number">4.1</span> Requirements</a><ul>
+                <li><a href="#frame-dimensions"><span class="toc-section-number">4.1.1</span> Frame Dimensions</a></li>
+                </ul></li>
+                <li><a href="#recommended-practices"><span class="toc-section-number">4.2</span> Recommended Practices</a></li>
+            </ul></li>
+            <li><a href="#scenery"><span class="toc-section-number">5</span> Scenery</a><ul>
+            <li><a href="#backboard"><span class="toc-section-number">5.1</span> Backboard</a></li>
+            </ul></li>
+            <li><a href="#diagrams"><span class="toc-section-number">6</span> Diagrams</a><ul>
+            <li><a href="#d-1-ngm-track-standard"><span class="toc-section-number">6.1</span> D-1 NGM Track Standard</a></li>
+            <li><a href="#d-2-leg-construction"><span class="toc-section-number">6.2</span> D-2 Leg Construction</a></li>
+            <li><a href="#d-3-basic-frame-construction"><span class="toc-section-number">6.3</span> D-3 Basic Frame Construction</a></li>
+            <li><a href="#d-4-corner-module-dimensions"><span class="toc-section-number">6.4</span> D-4 Corner Module Dimensions</a></li>
+            <li><a href="#d-5-wiring-configuration-diagram"><span class="toc-section-number">6.5</span> D-5 Wiring Configuration Diagram</a></li>
+            </ul></li>
+            <li><a href="#definitions"><span class="toc-section-number">7</span> Definitions</a></li>
+            <li><a href="#revision-history"><span class="toc-section-number">8</span> Revision History</a><ul>
+            <li><a href="#introduction-1"><span class="toc-section-number">8.1</span> Introduction</a></li>
+            <li><a href="#track-work-standards"><span class="toc-section-number">8.2</span> Track Work Standards</a></li>
+            <li><a href="#rolling-stock"><span class="toc-section-number">8.3</span> Rolling Stock</a></li>
+            <li><a href="#electrical-standards"><span class="toc-section-number">8.4</span> Electrical Standards</a></li>
+            <li><a href="#framework-1"><span class="toc-section-number">8.5</span> Framework</a></li>
+            <li><a href="#command-control-reference"><span class="toc-section-number">8.6</span> Command Control Reference</a></li>
+            </ul></li>
+        </ul>
+        </nav>
+        <p><strong>Adapted from NMRA &amp; Piedmont Division Standards</strong></p>
+        <p><strong>NMRA Compatible</strong><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+        <p>Release 5.0</p>
+        <p>October, 2018</p>
+        <p>© 2018 NGM Club, Inc.</p>
+        <p>Copyright 2018 NGM Club, Inc. (with portions copyright 1990, 1994 NMRA Piedmont Division)</p>
+        <h1 id="introduction"><span class="header-section-number">1</span> Introduction</h1>
+        <p>This document describes the standards, requirements and recommended practices of the <strong>North Georgia Modurail</strong> group (<strong>NGM</strong>)<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. It documents the requirements a module must meet to interchange with other <strong>NGM</strong> modules.</p>
+        <p>An <strong>NGM</strong> module is a lightweight, portable, interchangeable section of a larger layout that, when assembled together, forms a layout capable of handling continuously running trains. While mated modules are common, individual modules are considered to be stand-alone dioramas that may be placed anywhere in the layout.</p>
+        <p>The intent of these standards is to allow a wide range of individual expression while providing a vehicle for model railroaders to get together to run trains. It provides an excellent method for those with novice skills to learn from more experienced modelers through workshops and operating sessions. It provides a method with which to promote the fellowship of the hobby and to spark an interest in those who don't have their own home layout.</p>
+        <h1 id="electrical"><span class="header-section-number">2</span> Electrical</h1>
+        <h2 id="wiring"><span class="header-section-number">2.1</span> Wiring</h2>
+        <ol>
+        <li><p>Each module shall provide and connect to a 14 AWG main power bus and shall be wired according to Diagram <strong>D-6</strong>.</p></li>
+            <li><p>The main power bus cable shall consist of nine (9) 14 AWG wires, forming a robust electrical backbone mounted on each module and connected to adjoining modules by jumpers. This cable shall provide power as follows:</p>
+                <ol>
+                <li><p>two (2) wire pairs to power the mainlines,</p></li>
+                <li><p>one (1) wire pair to power the auxiliary mainline,</p></li>
+                <li><p>one (1) wire pair to provide 16VAC for local accessory power needs,</p></li>
+                <li><p>one (1) single wire to serve as the DCC booster common. (See diagram <strong>D-6</strong> for pin wiring and color code.)</p></li>
+                </ol></li>
+                <li><p>Branchlines shall be isolated from the mainline with plastic insulating rail joiners.</p></li>
+                <li><p>Modules shall provide continuous connections for LocoNet even if not needed on the module.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p></li>
+                <li><p>Provisions should be made to ensure that all wiring can be properly stowed for transport (avoid loose hanging wires and connectors).</p></li>
+        </ol>
+        <h2 id="electrical-connections"><span class="header-section-number">2.2</span> Electrical Connections</h2>
+        <ol>
+            <li><p>All module wiring shall be accessible using a terminal strip between the main power bus and the rest of the module in order to...</p>
+                <ol>
+                <li><p>allow for wire maintenance,</p></li>
+                <li><p>make it easy to add non-standard interface plug assemblies and,</p></li>
+                <li><p>provide a convenient location for electrical testing.</p></li>
+                </ol></li>
+                <li><p>Bus connections between modules shall use Anderson PowerPole connectors arranged in 3x3 blocks in one of two configurations, 'M' for mounting on a module and 'J' for jumpers between modules or extensions. ('M' blocks connect only to 'J' blocks and vice versa.)</p></li>
+                <li><p>Connector shell colors shall correspond to the recommended wire colors.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p></li>
+                <li><p>The 'M' connection blocks shall be securely mounted within 8&quot; of the module end and within 6&quot; of the front of the module. If an extension cable is used in place of a mounted 'M' connector, it shall extend at least 18&quot; beyond the East end (right side) of the module.</p></li>
+                <li><p>Local wiring (track feeders and AC accessory) shall tap from the 'M' connector block on the West end (left side) and terminate in a nearby terminal strip.</p></li>
+                <li><p><strong>NGM</strong> will stock the connector housings, contacts and wire for use in members' modules at a nominal fee.</p></li>
+        </ol>
+        <h2 id="accessory-power"><span class="header-section-number">2.3</span> Accessory Power</h2>
+        <ol>
+        <li><p>The main power bus shall provide 16 VAC on the black and white wires.</p></li>
+        <li><p>Individual modules may use this power source for optional accessories such as lighting, animation and switch machines.</p></li>
+        <li><p>Each module is limited to 500 mA continuous current draw.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></p></li>
+        </ol>
+        <h2 id="electrical-standards-sheets"><span class="header-section-number">2.4</span> Electrical Standards Sheets</h2>
+        <h3 id="wiring-color-code-specification-es-1.0"><span class="header-section-number">2.4.1</span> Wiring Color Code Specification ES 1.0</h3>
+        <table>
+            <thead>
+                <tr class="header">
+                <th style="text-align: left;"><strong>Wire Connection</strong></th>
+                <th style="text-align: left;"><strong>Wire Color</strong></th>
+                <th style="text-align: left;"><strong>Anderson Housing</strong><a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd">
+                <td style="text-align: left;">S. Main, S. Rail</td>
+                <td style="text-align: left;">RED</td>
+                <td style="text-align: left;">1327 Red</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">S. Main, N. Rail</td>
+                <td style="text-align: left;">GRN</td>
+                <td style="text-align: left;">1327G5 Green</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">N. Main, S. Rail</td>
+                <td style="text-align: left;">BLU</td>
+                <td style="text-align: left;">1327G8 Blue</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">N. Main, N. Rail</td>
+                <td style="text-align: left;">YEL</td>
+                <td style="text-align: left;">1327G16 Yellow</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Aux. Main, S. Rail</td>
+                <td style="text-align: left;">ORG</td>
+                <td style="text-align: left;">1327G17 Orange</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Aux. Main, N. Rail</td>
+                <td style="text-align: left;">BRN</td>
+                <td style="text-align: left;">1327G23 Violet<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">DCC Common</td>
+                <td style="text-align: left;">GRY</td>
+                <td style="text-align: left;">1327G18 Gray</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">16VAC-1</td>
+                <td style="text-align: left;">BLK</td>
+                <td style="text-align: left;">1327G6 Black</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">16VAC-2</td>
+                <td style="text-align: left;">WHT</td>
+                <td style="text-align: left;">1327G7 White</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="wire-and-plug-specifications-es-1.1"><span class="header-section-number">2.4.2</span> Wire and Plug Specifications ES 1.1</h3>
+        <table>
+            <thead>
+                <tr class="header">
+                <th style="text-align: left;"><strong>Item</strong></th>
+                <th style="text-align: left;"><strong>NGM Standard</strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd">
+                <td style="text-align: left;">Throttle Bus Wire</td>
+                <td style="text-align: left;">LocoNet<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a></td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Throttle Bus Plug</td>
+                <td style="text-align: left;">RJ25 Plug</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Throttle Bus Socket<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a></td>
+                <td style="text-align: left;">RJ25 Socket (jack)<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a></td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Feeder Wire</td>
+                <td style="text-align: left;">16-20 AWG</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Main Electrical Bus Wire</td>
+                <td style="text-align: left;">14 AWG</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Left (West) Connector</td>
+                <td style="text-align: left;">Mounted 'M'</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Right (East) Connector</td>
+                <td style="text-align: left;">Mounted 'M'<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a></td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="ac-power-source-specifications-es-1.2"><span class="header-section-number">2.4.3</span> AC Power Source Specifications ES 1.2</h3>
+        <table>
+            <thead>
+                <tr class="header">
+                <th style="text-align: left;"><strong>Item</strong></th>
+                <th style="text-align: left;"><strong>NGM Standard</strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd">
+                <td style="text-align: left;">Type</td>
+                <td style="text-align: left;">16VAC tap from Main Electrical Bus</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Capacity</td>
+                <td style="text-align: left;">500 mA draw max. <a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a></td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Wire Size (min)</td>
+                <td style="text-align: left;">14 AWG on bus, 20 AWG on module<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a></td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 id="track-work"><span class="header-section-number">3</span> Track Work</h1>
+        <p>The <strong>NGM</strong> Standards are derived from the <strong>Piedmont Division Standards</strong> and have been modified to suit the operating conditions of <strong>NGM</strong>.</p>
+        <h2 id="track-work-standards-sheet-tws-1"><span class="header-section-number">3.1</span> Track Work Standards Sheet TWS-1</h2>
+        <table>
+            <thead>
+                <tr class="header">
+                <th style="text-align: left;"><strong>Item</strong></th>
+                <th style="text-align: left;"><strong>NGM Standard</strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd">
+                <td style="text-align: left;">Type</td>
+                <td style="text-align: left;">Hand laid or Commercial</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;"><strong>Size</strong></td>
+                <td style="text-align: left;"></td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Mainline</td>
+                <td style="text-align: left;">HO Code 100</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Auxiliary</td>
+                <td style="text-align: left;">HO Code 100</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Other</td>
+                <td style="text-align: left;">HO Code 70 (minimum)</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;"><strong>Set Backs</strong></td>
+                <td style="text-align: left;"></td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">East/West Ends</td>
+                <td style="text-align: left;">0&quot;</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Mainline #1<a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a></td>
+                <td style="text-align: left;">5&quot;</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Mainline #2</td>
+                <td style="text-align: left;">7&quot;</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Auxiliary</td>
+                <td style="text-align: left;">9 ½&quot;</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;"><strong>Track Centerline Spacing</strong></td>
+                <td style="text-align: left;"></td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Mainlines #1 &amp; #2</td>
+                <td style="text-align: left;">2&quot;</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Auxiliary to Main #2</td>
+                <td style="text-align: left;">2 ½&quot; minimum</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Curves</td>
+                <td style="text-align: left;">2 ½&quot; minimum<a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a></td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Elevation</td>
+                <td style="text-align: left;">40&quot; from floor to top of rail.<a href="#fn16" class="footnote-ref" id="fnref16"><sup>16</sup></a></td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="track-work-standards-sheet-tws-2"><span class="header-section-number">3.2</span> Track Work Standards Sheet TWS-2</h2>
+        <table>
+            <thead>
+                <tr class="header">
+                <th style="text-align: left;"><strong>Item</strong></th>
+                <th style="text-align: left;"><strong>NGM Standard</strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd">
+                <td style="text-align: left;"><strong>Horizontal Clearances</strong><a href="#fn17" class="footnote-ref" id="fnref17"><sup>17</sup></a></td>
+                <td style="text-align: left;">Minimum</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Straight Track</td>
+                <td style="text-align: left;">1 1/32&quot;</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Curved Track</td>
+                <td style="text-align: left;">1 ¼&quot; <a href="#fn18" class="footnote-ref" id="fnref18"><sup>18</sup></a></td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Vertical Clearance</td>
+                <td style="text-align: left;">3&quot;</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Parallel Tangent Track</td>
+                <td style="text-align: left;">3&quot;</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;"><strong>Grades</strong></td>
+                <td style="text-align: left;">Maximum</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Mainline</td>
+                <td style="text-align: left;">0%</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Auxiliary</td>
+                <td style="text-align: left;">0%</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Branch Line</td>
+                <td style="text-align: left;">3%</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;"><strong>Turnouts</strong></td>
+                <td style="text-align: left;">Minimum Size</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Main</td>
+                <td style="text-align: left;">#6<a href="#fn19" class="footnote-ref" id="fnref19"><sup>19</sup></a></td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Auxiliary</td>
+                <td style="text-align: left;">#6</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Branch Line</td>
+                <td style="text-align: left;">#4</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;"><strong>Curve Radius on Corner Module</strong></td>
+                <td style="text-align: left;">Minimum</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Mainline</td>
+                <td style="text-align: left;">36 5/8&quot;<a href="#fn20" class="footnote-ref" id="fnref20"><sup>20</sup></a></td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Auxiliary</td>
+                <td style="text-align: left;">34 1/8&quot;</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Branch Line</td>
+                <td style="text-align: left;">32&quot;</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;"><strong>Curve Radius on Straight Module</strong></td>
+                <td style="text-align: left;">Minimum</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Mainline</td>
+                <td style="text-align: left;">32&quot;</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Auxiliary</td>
+                <td style="text-align: left;">29 ½&quot;</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Branch Line</td>
+                <td style="text-align: left;">18&quot;</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;"><strong>Other</strong></td>
+                <td style="text-align: left;"></td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Uncouplers</td>
+                <td style="text-align: left;">Permanent magnet may not be used on mainlines.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="track-work-reference"><span class="header-section-number">3.3</span> Track Work Reference</h2>
+        <p>The following track work information applies to all <strong>NGM</strong> modules. They apply regardless of size or type.</p>
+        <dl>
+        <dt>Track Work Requirements</dt>
+            <dd>To be compatible with existing <strong>NGM</strong> modules, it is a requirement that one adhere to the <strong>NGM</strong> Standard.
+            </dd>
+            <dt>Switch Machines</dt>
+            <dd>Manual ground throws or electrical switch machines may be used to control switch position.
+            </dd>
+            <dd>All switch devices shall positively lock the switch machine in either position when set.
+            </dd>
+            <dt>Mainlines</dt>
+            <dd>Two mainlines shall be required, located as shown in diagram <strong>D-1</strong>.
+            </dd>
+            <dd>The club supports modules that provide an auxiliary mainline (Track 3) but it is not required.
+            </dd>
+            <dt>Module Interface Tracks</dt>
+            <dd>The <strong>NGM</strong> track end standard negates the need for interface (bridge) tracks.
+            </dd>
+        </dl>
+        <h2 id="track-work-recommended-practices"><span class="header-section-number">3.4</span> Track Work: Recommended Practices</h2>
+        <dl>
+        <dt>Uncouplers</dt>
+            <dd><strong>Kadee's</strong> #307 (switched) electromagnetic uncoupler (or equivalent) is acceptable on the mainline tracks, so long as it is properly installed and does not interfere with the passage of trains.
+            </dd>
+            <dt>Through Tracks</dt>
+            <dd>The minimum required number of through tracks is 2.
+            </dd>
+            <dd>An auxiliary through track should be considered to allow for a third mainline.
+            </dd>
+            <dd>When providing information about your module, please provide the auxiliary track type, that is, Mainline #3 or branch line.
+            </dd>
+            <dd>Providing for the third mainline remains optional.
+            </dd>
+            <dt>Rail Code Transitions</dt>
+            <dd>Use of code 83 rail or smaller should have a 2 ½&quot; transition track before meeting with mainline code 100 rail. (<em>Transition should not occur at a switch joint.</em>)
+            </dd>
+            <dt>Switches (Turnouts)</dt>
+            <dd>Switches with positive locking action are preferred over the more common slide action switches.
+            </dd>
+            <dd>This style mechanism is most commonly found on switches made by <strong>PECO</strong>.
+            </dd>
+            <dd>If a switch without positive lock is installed, it is highly recommended that it be driven by a switch machine that resists accidental movement; for example, a Tortoise© motor driven switch machine.
+            </dd>
+        </dl>
+        <h1 id="framework"><span class="header-section-number">4</span> Framework</h1>
+        <ol>
+        <li><p>The specifications for module sizes are relatively strict. The following describes the minimum requirements and recommended practices for module framework construction.</p></li>
+        <li><p>Modules will be checked annually to ensure conformance to specifications following the <strong>NGM</strong> Module Compliance Audit Form. Conforming modules will display a dated sticker which will provide sufficient proof of compliance.</p></li>
+        <li><p>As of this revision, the <strong>NGM</strong> standards committee has not approved the use of transition modules to allow for the inclusion of non-conforming modules.</p></li>
+        </ol>
+        <h2 id="requirements"><span class="header-section-number">4.1</span> Requirements</h2>
+        <ol>
+        <li><p>For consistency with existing modules, module frame sides and ends shall be made with 1x4 lumber<a href="#fn21" class="footnote-ref" id="fnref21"><sup>21</sup></a> (¾&quot; x 3 ½&quot; finished) such as common pine or high quality plywood. It shall be straight, solid and free of knots, sanded smooth prior to finishing and painting.</p></li>
+        <li><p>Frame corners must be square.</p></li>
+        <li><p>All visible framework shall be painted with Ace Hardware Forest Green interior latex paint (or approved equivalent).</p></li>
+        <li><p>Some provision shall be provided for hanging decorative curtain or skirting<a href="#fn22" class="footnote-ref" id="fnref22"><sup>22</sup></a> on both outside and inside<a href="#fn23" class="footnote-ref" id="fnref23"><sup>23</sup></a> facing frames.<a href="#fn24" class="footnote-ref" id="fnref24"><sup>24</sup></a></p></li>
+        <li><p>The side frames shall have alignment holes made using a standard drilling template.<a href="#fn25" class="footnote-ref" id="fnref25"><sup>25</sup></a></p></li>
+        <li><p>During layout setup, metal pins provide proper alignment to adjoining modules.<a href="#fn26" class="footnote-ref" id="fnref26"><sup>26</sup></a> (Diagram pending.)</p></li>
+        <li><p>Modules are securely joined by 3&quot; C-clamps. Provision must be made to clamp to any other module whose side frame is a standard 1x4. Two clamps are required for each module end and are typically provided by the club. Two clamps are required to allow front to back track alignment.</p></li>
+        </ol>
+        <h3 id="frame-dimensions"><span class="header-section-number">4.1.1</span> Frame Dimensions</h3>
+        <table>
+            <thead>
+                <tr class="header">
+                <th style="text-align: left;"><strong>Dimension</strong></th>
+                <th style="text-align: left;"><strong>Min.</strong></th>
+                <th style="text-align: left;"><strong>Max.</strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd">
+                <td style="text-align: left;">Leg Height</td>
+                <td style="text-align: left;">N/A</td>
+                <td style="text-align: left;">Adjust with eye bolt to reach 40&quot; at rail.<a href="#fn27" class="footnote-ref" id="fnref27"><sup>27</sup></a></td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Length</td>
+                <td style="text-align: left;">24&quot;</td>
+                <td style="text-align: left;">96&quot; (in 24&quot; increments)</td>
+                </tr>
+                <tr class="odd">
+                <td style="text-align: left;">Depth</td>
+                <td style="text-align: left;">18&quot;</td>
+                <td style="text-align: left;">36&quot;</td>
+                </tr>
+                <tr class="even">
+                <td style="text-align: left;">Height</td>
+                <td style="text-align: left;">3 ½&quot;</td>
+                <td style="text-align: left;">N/A</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="recommended-practices"><span class="header-section-number">4.2</span> Recommended Practices</h2>
+        <ol>
+        <li><p>Frame pieces shall be joined with screws and glue.</p></li>
+        <li><p>Only glue on the inside of the framework to eliminate visible residue from the frame exterior.</p></li>
+        <li><p>If a handle is attached to the module, it shall be on the north side of the module (inside face).</p></li>
+        <li><p>Legs should be removable and have a T-nut or threaded insert and eye bolt installed on the floor side to allow for rail height adjustments.</p></li>
+        </ol>
+        <h1 id="scenery"><span class="header-section-number">5</span> Scenery</h1>
+        <ol>
+        <li><p>The scenery design, style, colors and details are at the module owner's discretion.</p></li>
+        <li><p>Each module may be a stand-alone diorama or belong to a set of modules that make up a mated set.</p></li>
+        <li><p>The club does not mandate scenery styles nor contents.</p></li>
+        <li><p>As a general guideline, a majority of <strong>NGM</strong> modelers follow a modern, late 1960's to 90's theme.</p></li>
+        </ol>
+        <h2 id="backboard"><span class="header-section-number">5.1</span> Backboard</h2>
+        <ol>
+        <li><p>Each module will have a backboard (sky board) that extends 14&quot; above the rear side rail.</p></li>
+        <li><p>It shall be 1/8&quot; shorter than the module on each end to avoid interference with adjoining modules.</p></li>
+        <li><p>The backboard may be permanently attached but is recommended that it be removable for ease of transportation and exhibit flexibility.<a href="#fn28" class="footnote-ref" id="fnref28"><sup>28</sup></a> (See diagram D-3 for placement.)</p></li>
+        <li><p>The bottom of the backboard shall provide sufficient clearance for attaching the decorative skirting.</p></li>
+        <li><p>The backboard must be painted on both sides. <strong>NGM</strong> recommends Sherwin Williams Universe Blue (or approved equivalent) for the front (outside face) of the backboard.</p></li>
+        <li><p>Paint the inside face of the backboard with the same green paint used for the frame (refer to section 5.2.)</p></li>
+        </ol>
+        <h1 id="diagrams"><span class="header-section-number">6</span> Diagrams</h1>
+        <h2 id="d-1-ngm-track-standard"><span class="header-section-number">6.1</span> D-1 NGM Track Standard</h2>
+        <p>This diagram illustrates the recommended track layout.<a href="#fn29" class="footnote-ref" id="fnref29"><sup>29</sup></a></p>
+        <figure>
+        <img src="Drawings\D-1%20Track%20Standard.png" title="Track Standard" alt="Track Standard" /><figcaption>Track Standard</figcaption>
+        </figure>
+        <h2 id="d-2-leg-construction"><span class="header-section-number">6.2</span> D-2 Leg Construction</h2>
+        <p>This diagram illustrates the recommended method for making module legs.</p>
+        <figure>
+        <img src="Drawings\D-2%20Leg%20Construction.png" title="Leg Construction" alt="Leg Construction" /><figcaption>Leg Construction</figcaption>
+        </figure>
+        <h2 id="d-3-basic-frame-construction"><span class="header-section-number">6.3</span> D-3 Basic Frame Construction</h2>
+        <p>This diagram illustrates the recommended method for making a standard, straight module.<a href="#fn30" class="footnote-ref" id="fnref30"><sup>30</sup></a></p>
+        <figure>
+        <img src="Drawings\D-3%20Basic%20Frame.png" title="Basic Frame Construction" alt="Basic Frame Construction" /><figcaption>Basic Frame Construction</figcaption>
+        </figure>
+        <figure>
+        <img src="Drawings\D-3.2%20Frame%20Clamp.png" title="Frame Clamp" alt="Frame Clamp" /><figcaption>Frame Clamp</figcaption>
+        </figure>
+        <h2 id="d-4-corner-module-dimensions"><span class="header-section-number">6.4</span> D-4 Corner Module Dimensions</h2>
+        <p>Showing exterior frame dimensions and track placement only.<a href="#fn31" class="footnote-ref" id="fnref31"><sup>31</sup></a></p>
+        <figure>
+        <img src="Drawings\D-4%20Corner%20Module.png" title="Corner Module" alt="Corner Module" /><figcaption>Corner Module</figcaption>
+        </figure>
+        <h2 id="d-5-wiring-configuration-diagram"><span class="header-section-number">6.5</span> D-5 Wiring Configuration Diagram</h2>
+        <p>Showing wire color code and connector configurations.</p>
+        <figure>
+        <img src="Drawings\D-6%20Wiring%20Configuration.png" title="Wiring Configuration" alt="Wiring Configuration" /><figcaption>Wiring Configuration</figcaption>
+        </figure>
+        <h1 id="definitions"><span class="header-section-number">7</span> Definitions</h1>
+        <dl>
+        <dt>AWG</dt>
+            <dd>AWG refers to &quot;American Wire Gauge&quot;. It is a standard that defines electrical wire sizes by a numerical value. The word &quot;<strong><em>gauge</em></strong>&quot; is commonly used when referring to a wire size.
+            </dd>
+            <dd><strong>For the technical types:</strong>, 14 gauge wire is 1.628 mm in diameter and has the ability to conduct 17 amps of electrical current while only having 2 ohms of resistance per 1000 feet.
+            </dd>
+            <dt>Auxiliary Track</dt>
+            <dd>Auxiliary lines serve as an optional third mainline when possible. When used as a mainline, it must be installed with the same standards as the other mainlines. An auxiliary track is always parallel to the mainline at a 2 ½&quot; center from mainline #2 and is also called Mainline #3. When used as a siding, branch line standards apply and it may not be considered as a third mainline if it deviates from the mainline standard.
+            </dd>
+            <dt>Branch Lines</dt>
+            <dd>These lines are optional on all modules. They must conform to all <strong>NGM</strong> electrical and interface standards. They must also be insulated from the mainline if a local analog throttle is to be used while the mainline is active.
+            </dd>
+            <dt>Bridge Track</dt>
+            <dd>A connecting, removable track section used to join the tracks between modules. The interface area has been sized to allow standard sectional track parts to be inserted between modules. (Also known as an Interface Track.)<a href="#fn32" class="footnote-ref" id="fnref32"><sup>32</sup></a>
+            </dd>
+        </dl>
+        <dl>
+        <dt>Center Spacing</dt>
+            <dd>The distance between the centerlines of parallel tracks.
+            </dd>
+            <dt>Conforming Modules</dt>
+            <dd>Modules that are freely interchangeable in every way with all other conforming modules built to these standards. Conformity shall be determined by the <strong>NGM</strong> Conformance Committee.
+            </dd>
+            <dt>DCC</dt>
+            <dd><strong>Digital Command Control (DCC)</strong>. The <strong>NGM</strong> standard incorporates <strong>NMRA</strong> approved standards for <strong>DCC</strong> operation. <strong>DCC</strong> allows for independent selection and control of engines by sending commands over the rails to miniature microprocessors installed in the engine bodies. The <strong>NGM</strong> electrical standard requires a telephone style jack to connect the hand-held controller.
+            </dd>
+            <dt>East End</dt>
+            <dd>This is the right-hand end of the module as seen from the front (the normal viewing side).
+            </dd>
+            <dt>West End</dt>
+            <dd>This is the left-hand end of the module as seen from the front (the normal viewing side).
+            </dd>
+            <dt>Interface Area</dt>
+            <dd>Any portion of the module within 3&quot; from the East and West ends of the module. <em>(See the Interface Area diagram.)</em> The Interface Area is considerably restricted by the <strong>NGM</strong> standards to ensure that modules are interchangeable and operations are smooth.
+            </dd>
+            <dt>Mainline Track</dt>
+            <dd>The standard defines the mainline as two tracks running the length of the module, not including the interface area, that provide eastbound and westbound operation of trains. The mainline is restricted to 5&quot; and 7&quot; centerlines from the front of the module (in the interface area) with some optional variations. The mainline also has strict radius, grade and turnout restrictions to ensure smooth operation.
+            </dd>
+            <dt>Mated Set</dt>
+            <dd>Any group of modules in which the individual modules <em>cannot</em> be used separately for some reason. Mated Sets typically consist of modules that do not conform to our interface standards between themselves, but conform to the interface standards at both ends of the set.
+            </dd>
+            <dd>A variation of a mated set is a group of modules that fully conform to our interface standards but are designed to be joined together due to scene continuity or optional interface area track connections that provide multi module continuity. <em>(Commonly seen in intermodal yard modules.)</em>
+            </dd>
+            <dt>Module</dt>
+            <dd>A module is a portable section of a table-like frame work which is one part of a large group of similar modules that, when assembled together forms a large and fully operating model railroad. They are built by individuals as part of a home layout or specifically for interfacing with others in a large setup. All are built to a set of standards that allow each unit to interface exactly with other units anywhere in the overall system. A module may be a single frame or a set of frames that interface with other modules in a standard manner but that may deviate from the interface standard between ends (<em>see Interface Area.</em>) By being portable, they may be disassembled-assembled for transporting to conventions or public displays. Many clubs are formed for the specific purpose of building module layouts as space for permanent layouts is hard to find and very expensive when available. <strong>NGM</strong> is such a club.
+            </dd>
+            <dt>Non-conforming Module</dt>
+            <dd>Modules that are not built to these standards (in either track arrangement or electrical wiring methods) and therefore not directly compatible with the system as outlined here.
+            </dd>
+            <dt>Non-Interface Area</dt>
+            <dd>Any portion of the module not within the interface area. Restrictions within the non-interface area are minimal, although extreme variations in grade, turn radius, and track gauge could render the module undesirable.
+            </dd>
+            <dt>Route Convention</dt>
+            <dd>The southern most mainline (mainline #1) usually runs eastward and the next parallel mainline usually runs westward. The auxiliary mainline direction is not defined. <strong>NOTE:</strong> The viewing side of the module is the south side.
+            </dd>
+        </dl>
+        <h1 id="revision-history"><span class="header-section-number">8</span> Revision History</h1>
+        <p>Showing only substantive changes from 4.1 to 5.0 here.<a href="#fn33" class="footnote-ref" id="fnref33"><sup>33</sup></a></p>
+        <h2 id="introduction-1"><span class="header-section-number">8.1</span> Introduction</h2>
+        <p>Updated copyrights and minor editorial changes to the document introduction.</p>
+        <h2 id="track-work-standards"><span class="header-section-number">8.2</span> Track Work Standards</h2>
+        <dl>
+        <dt>Set Backs</dt>
+            <dd>East/West Ends reduced from 1 ½&quot; to 0&quot;.
+            </dd>
+            <dt>Centerline Spacing</dt>
+            <dd>Eliminated duplication of Interface and Non-Interface areas.
+            </dd>
+            <dt>Interface Track Length</dt>
+            <dd>Deleted as no longer necessary.
+            </dd>
+        </dl>
+        <h2 id="rolling-stock"><span class="header-section-number">8.3</span> Rolling Stock</h2>
+        <p>Removed the <strong>Rolling Stock</strong> section as it is more appropriate in an Operations Guideline document.</p>
+        <h2 id="electrical-standards"><span class="header-section-number">8.4</span> Electrical Standards</h2>
+        <dl>
+        <dt>2.0.1</dt>
+            <dd>Removed references to NMRA and old NGM standards.
+            </dd>
+            <dd>Replace Pin # with Anderson Housing number.
+            </dd>
+            <dd>Changed 18VAC to 16VAC.
+            </dd>
+            <dt>2.0.2</dt>
+            <dd>Removed references to NMRA and old NGM standards.
+            </dd>
+            <dd>Updated to reflect the use of Anderson connectors.
+            </dd>
+            <dt>2.0.3</dt>
+            <dd>Removed references to NMRA and old NGM standards.
+            </dd>
+            <dd>Removed Orientation line.
+            </dd>
+            <dt>2.1.1, 2.1.2, 2.1.3.1, 2.1.3.2</dt>
+            <dd>Rewritten for Anderson connectors instead of ATA 9-pin connector.
+            </dd>
+            <dt>2.1.3.4</dt>
+            <dd>Removed.
+            </dd>
+            <dt>2.1.4</dt>
+            <dd>Removed reference to branch line analog isolation.
+            </dd>
+            <dt>2.1.5</dt>
+            <dd>Changed 18 VAC to 16 VAC.
+            </dd>
+        </dl>
+        <h2 id="framework-1"><span class="header-section-number">8.5</span> Framework</h2>
+        <dl>
+        <dt>3.1</dt>
+            <dd>Added requirement to enable attachment of skirting on inside facing frame.
+            </dd>
+        </dl>
+        <h2 id="command-control-reference"><span class="header-section-number">8.6</span> Command Control Reference</h2>
+        <p>Removed the <strong>Command Control</strong> section as it is better suited to a general reference document.</p>
+        <section class="footnotes">
+        <hr />
+        <ol>
+        <li id="fn1"><p>NMRA compliant modules may be easily integrated into <strong>NGM</strong> layouts with some minor adaptations to the electrical connections.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+        <li id="fn2"><p>The official name is <strong>NGM Club, Inc.</strong><a href="#fnref2" class="footnote-back">↩</a></p></li>
+        <li id="fn3"><p>Use either an approved RJ25 (6P6C) inline coupler or a UP-5 'daisy-chain'.<a href="#fnref3" class="footnote-back">↩</a></p></li>
+        <li id="fn4"><p>Exception to allow a Violet housing to substitute for Brown to improve color contrast.<a href="#fnref4" class="footnote-back">↩</a></p></li>
+        <li id="fn5"><p>The layout coordinator may allow exceptions to this limit.<a href="#fnref5" class="footnote-back">↩</a></p></li>
+        <li id="fn6"><p>The housing color prefix is the Anderson PowerPole manufacturer ID for the shell.<a href="#fnref6" class="footnote-back">↩</a></p></li>
+        <li id="fn7"><p>1327G21 Brown is allowed, but not recommended due to poor color contrast with Black.<a href="#fnref7" class="footnote-back">↩</a></p></li>
+        <li id="fn8"><p>6 wire flat phone cable. <strong>Do not use twisted pair cable for LocoNet.</strong><a href="#fnref8" class="footnote-back">↩</a></p></li>
+        <li id="fn9"><p>RJ25 is a 6P6C connection and at least one is required mounted on the front face (recommended on the East end).<a href="#fnref9" class="footnote-back">↩</a></p></li>
+        <li id="fn10"><p>The Digitrax UP5 is recommended.<a href="#fnref10" class="footnote-back">↩</a></p></li>
+        <li id="fn11"><p>Optional extension cable terminated by a 'J' connector extending at least 18&quot; beyond the module end.<a href="#fnref11" class="footnote-back">↩</a></p></li>
+        <li id="fn12"><p>Maximum current available to any one module is subject to total current capacity provided by the power district. See layout coordinator for details or exceptions.<a href="#fnref12" class="footnote-back">↩</a></p></li>
+        <li id="fn13"><p>Used for local, short length track feeders.<a href="#fnref13" class="footnote-back">↩</a></p></li>
+        <li id="fn14"><p>From front edge of module.<a href="#fnref14" class="footnote-back">↩</a></p></li>
+        <li id="fn15"><p>At all points except transition to 2&quot; approaching parallel track.<a href="#fnref15" class="footnote-back">↩</a></p></li>
+        <li id="fn16"><p>Mainline railheads within interface area. Must be adjustable from 39&quot; to 41&quot;.<a href="#fnref16" class="footnote-back">↩</a></p></li>
+        <li id="fn17"><p>Horizontal clearances are from track center. Refer to NMRA Standards S-7 and S-8, Revised Aug. 1982.<a href="#fnref17" class="footnote-back">↩</a></p></li>
+        <li id="fn18"><p>Refer to S-8, Class Ia for track radius of 32&quot;.<a href="#fnref18" class="footnote-back">↩</a></p></li>
+        <li id="fn19"><p>Use of PECO medium is acceptable.<a href="#fnref19" class="footnote-back">↩</a></p></li>
+        <li id="fn20"><p>Mainline tracks 1 &amp; 2 may have the same radius as long as the tangent and centerpoint offsets allow for at least a 2 ½&quot; separation in the curve.<a href="#fnref20" class="footnote-back">↩</a></p></li>
+        <li id="fn21"><p>Note that if Tortoise© switch machines are to be installed, standard 1x4 lumber will not provide adequate depth to protect them from damage.<a href="#fnref21" class="footnote-back">↩</a></p></li>
+        <li id="fn22"><p>NGM usually provides the skirting depending on the exhibit needs.<a href="#fnref22" class="footnote-back">↩</a></p></li>
+        <li id="fn23"><p>Ensure the backboard does not interfere with the skirting attachment.<a href="#fnref23" class="footnote-back">↩</a></p></li>
+        <li id="fn24"><p>A 3/4&quot; Velcro© strip (hook side) is recommended.<a href="#fnref24" class="footnote-back">↩</a></p></li>
+        <li id="fn25"><p>NGM makes a drilling template available for initial module construction.<a href="#fnref25" class="footnote-back">↩</a></p></li>
+        <li id="fn26"><p>NGM provides the metal alignment pins as needed during layout setup.<a href="#fnref26" class="footnote-back">↩</a></p></li>
+        <li id="fn27"><p>Must be adjustable from 39&quot; to 41&quot;. See Diagram <strong>D-2</strong> (Leg Construction) for details.<a href="#fnref27" class="footnote-back">↩</a></p></li>
+        <li id="fn28"><p>The layout coordinator will decide if backboards are optional or mandatory, given the requirements of a specific display or exhibit.<a href="#fnref28" class="footnote-back">↩</a></p></li>
+        <li id="fn29"><p>Consult <strong>NGM</strong> for construction details.<a href="#fnref29" class="footnote-back">↩</a></p></li>
+        <li id="fn30"><p>Consult <strong>NGM</strong> for construction details.<a href="#fnref30" class="footnote-back">↩</a></p></li>
+        <li id="fn31"><p>Consult <strong>NGM</strong> for construction details.<a href="#fnref31" class="footnote-back">↩</a></p></li>
+        <li id="fn32"><p>As of Release 5.0, bridge tracks are only used to connect non-standard or legacy modules.<a href="#fnref32" class="footnote-back">↩</a></p></li>
+        <li id="fn33"><p>Refer to earlier releases for prior changes.<a href="#fnref33" class="footnote-back">↩</a></p></li>
+        </ol>
+        </section>
+    </body>
 </html>
