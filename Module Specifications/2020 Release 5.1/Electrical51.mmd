@@ -1,0 +1,106 @@
+# Electrical
+
+
+## Wiring
+1. Each module shall provide and connect to a 14 AWG main power bus and shall be wired according to Diagram **D-6**.
+
+2. The main power bus cable shall consist of nine (9) 14 AWG wires, forming a robust electrical backbone mounted on each module and connected to adjoining modules by jumpers. This cable shall provide power as follows:
+    
+    1. two (2) wire pairs to power the mainlines,
+    
+    2. one (1) wire pair to power the auxiliary mainline,
+    
+    3. one (1) wire pair to provide 16 VDC for local accessory power needs,
+    
+    4. one (1) single wire to serve as the DCC booster common. (See diagram **D-6** for pin wiring and color code.)
+
+3. Branchlines shall be isolated from the mainline with plastic insulating rail joiners.
+
+4. Modules shall provide continuous connections for LocoNet even if not needed on the module.[^ES01]
+
+5. Provisions should be made to ensure that all wiring can be properly stowed for transport (avoid loose hanging wires and connectors).
+
+[^ES01]: Use either an approved RJ25 (6P6C) inline coupler or a UP-5 'daisy-chain'.
+
+## Electrical Connections
+1. All module wiring shall be accessible using a terminal strip between the main power bus and the rest of the module in order to...
+
+    1. allow for wire maintenance,
+    
+    2.  make it easy to add non-standard interface plug assemblies and,
+    
+    3.  provide a convenient location for electrical testing.
+
+2. Bus connections between modules shall use Anderson PowerPole connectors arranged in 3x3 blocks in one of two configurations, 'M' for mounting on a module and 'J' for jumpers between modules or extensions. ('M' blocks connect only to 'J' blocks and vice versa.)
+
+3. Connector shell colors shall correspond to the recommended wire colors.[^ES02]
+
+4. The 'M' connection blocks shall be securely mounted within 8" of the module end and within 6" of the front of the module. If an extension cable is used in place of a mounted 'M' connector, it shall extend at least 18" beyond the East end (right side) of the module.
+
+5. Local wiring (track feeders and DC accessory) shall tap from the 'M' connector block on the West end (left side) and terminate in a nearby terminal strip.
+
+6. **NGM** will stock the connector housings, contacts and wire for use in members' modules at a nominal fee.
+
+[^ES02]: Exception to allow a Violet housing to substitute for Brown to improve color contrast.
+
+## Accessory Power
+1. The main power bus shall provide 16 VDC on the black and white wires.[^ES03]
+
+2. Individual modules may use this power source for optional accessories such as lighting, animation and switch machines.
+
+3. Each module is limited to 500 mA continuous current draw.[^ES04]
+
+[^ES03]: Voltage may or may not be regulated and is approximate only within a range of 16-19 VDC, depending on load.
+
+[^ES04]: The layout coordinator may allow exceptions to this limit.
+
+## Electrical Standards Sheets
+
+
+### Wiring Color Code Specification ES 1.0
+| **Wire Connection** | **Wire Color** | **Anderson Housing**[^ES05] |
+| :--- | :--- | :--- |
+| S. Main, S. Rail | RED | 1327 Red |
+| S. Main, N. Rail | GRN | 1327G5 Green |
+| N. Main, S. Rail | BLU | 1327G8 Blue |
+| N. Main, N. Rail | YEL | 1327G16 Yellow |
+| Aux. Main, S. Rail | ORG | 1327G17 Orange |
+| Aux. Main, N. Rail | BRN | 1327G23 Violet[^ES06] |
+| DCC Common | GRY | 1327G18 Gray |
+| 16 VDC-Positive | BLK | 1327G6 Black |
+| 16 VDC-Negative (Ground) | WHT| 1327G7 White |
+
+[^ES05]: The housing color prefix is the Anderson PowerPole manufacturer ID for the shell.
+
+[^ES06]: 1327G21 Brown is allowed, but not recommended due to poor color contrast with Black.
+
+### Wire and Plug Specifications ES 1.1
+| **Item** | **NGM Standard** |
+| :--- | :--- |
+| Throttle Bus Wire | LocoNet[^ES07] |
+| Throttle Bus Plug | RJ25 Plug |
+| Throttle Bus Socket[^ES08] | RJ25 Socket (jack)[^ES09] |
+| Feeder Wire | 16-20 AWG |
+| Main Electrical Bus Wire | 14 AWG |
+| Left (West) Connector | Mounted 'M' |
+| Right (East) Connector | Mounted 'M'[^ES10] |
+
+[^ES07]: 6 wire flat phone cable. **Do not use twisted pair cable for LocoNet.**
+
+[^ES08]: RJ25 is a 6P6C connection and at least one is required mounted on the front face (recommended on the East end).
+
+[^ES09]: The Digitrax UP5 is recommended.
+
+[^ES10]: Optional extension cable terminated by a 'J' connector extending at least 18" beyond the module end.
+
+### DC Power Source Specifications ES 1.2
+| **Item** | **NGM Standard** |
+| :--- | :--- |
+| Type | 16 VDC tap from Main Electrical Bus |
+| Capacity | 500 mA draw max. [^ES11] |
+| Wire Size (min) | 14 AWG on bus, 20 AWG on module[^ES12] |
+
+[^ES11]: Maximum current available to any one module is subject to total current capacity provided by the power district. See layout coordinator for details or exceptions.
+
+[^ES12]: Used for local, short length track feeders.
+
