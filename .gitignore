@@ -8,3 +8,6 @@
 *NGM_output.tex
 # ignore generated tex files,
 *.tex
+
+# Ignore cad tem files.
+*.dxf~
