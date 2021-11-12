@@ -1115,7 +1115,7 @@ AcDbViewportTableRecord
  21
 1
  12
-84.52512794040659
+84.580085760914
  22
 51.55043563595668
  13
@@ -2269,7 +2269,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle16
+textstyle36
  70
     0
  40
@@ -2283,7 +2283,7 @@ textstyle16
  42
 1
   3
-textstyle16
+textstyle36
   4
 
   0
@@ -2297,7 +2297,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle36
+textstyle29
  70
     0
  40
@@ -2311,7 +2311,7 @@ textstyle36
  42
 1
   3
-textstyle36
+textstyle29
   4
 
   0
@@ -2325,7 +2325,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle25
+textstyle37
  70
     0
  40
@@ -2339,7 +2339,7 @@ textstyle25
  42
 1
   3
-textstyle25
+textstyle37
   4
 
   0
@@ -2353,7 +2353,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle28
+textstyle33
  70
     0
  40
@@ -2367,7 +2367,7 @@ textstyle28
  42
 1
   3
-textstyle28
+textstyle33
   4
 
   0
@@ -2381,7 +2381,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle52
+textstyle15
  70
     0
  40
@@ -2395,7 +2395,7 @@ textstyle52
  42
 1
   3
-textstyle52
+textstyle15
   4
 
   0
@@ -2409,7 +2409,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle58
+textstyle55
  70
     0
  40
@@ -2423,7 +2423,7 @@ textstyle58
  42
 1
   3
-textstyle58
+textstyle55
   4
 
   0
@@ -2437,7 +2437,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle63
+textstyle59
  70
     0
  40
@@ -2451,7 +2451,7 @@ textstyle63
  42
 1
   3
-textstyle63
+textstyle59
   4
 
   0
@@ -2465,7 +2465,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle53
+textstyle32
  70
     0
  40
@@ -2479,7 +2479,7 @@ textstyle53
  42
 1
   3
-textstyle53
+textstyle32
   4
 
   0
@@ -2493,7 +2493,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle26
+textstyle41
  70
     0
  40
@@ -2507,7 +2507,7 @@ textstyle26
  42
 1
   3
-textstyle26
+textstyle41
   4
 
   0
@@ -2521,7 +2521,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle50
+textstyle53
  70
     0
  40
@@ -2535,7 +2535,7 @@ textstyle50
  42
 1
   3
-textstyle50
+textstyle53
   4
 
   0
@@ -2549,7 +2549,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle19
+textstyle42
  70
     0
  40
@@ -2563,7 +2563,7 @@ textstyle19
  42
 1
   3
-textstyle19
+textstyle42
   4
 
   0
@@ -2577,7 +2577,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle37
+textstyle34
  70
     0
  40
@@ -2591,7 +2591,7 @@ textstyle37
  42
 1
   3
-textstyle37
+textstyle34
   4
 
   0
@@ -2605,7 +2605,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle40
+textstyle16
  70
     0
  40
@@ -2619,7 +2619,7 @@ textstyle40
  42
 1
   3
-textstyle40
+textstyle16
   4
 
   0
@@ -2633,7 +2633,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle57
+textstyle38
  70
     0
  40
@@ -2647,7 +2647,7 @@ textstyle57
  42
 1
   3
-textstyle57
+textstyle38
   4
 
   0
@@ -2661,7 +2661,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle32
+textstyle17
  70
     0
  40
@@ -2675,7 +2675,7 @@ textstyle32
  42
 1
   3
-textstyle32
+textstyle17
   4
 
   0
@@ -2689,7 +2689,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle23
+textstyle30
  70
     0
  40
@@ -2703,7 +2703,7 @@ textstyle23
  42
 1
   3
-textstyle23
+textstyle30
   4
 
   0
@@ -2717,7 +2717,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle61
+textstyle39
  70
     0
  40
@@ -2731,7 +2731,7 @@ textstyle61
  42
 1
   3
-textstyle61
+textstyle39
   4
 
   0
@@ -2745,7 +2745,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle54
+textstyle58
  70
     0
  40
@@ -2759,7 +2759,7 @@ textstyle54
  42
 1
   3
-textstyle54
+textstyle58
   4
 
   0
@@ -2773,7 +2773,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle44
+textstyle63
  70
     0
  40
@@ -2787,7 +2787,7 @@ textstyle44
  42
 1
   3
-textstyle44
+textstyle63
   4
 
   0
@@ -2801,7 +2801,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle51
+textstyle24
  70
     0
  40
@@ -2815,7 +2815,7 @@ textstyle51
  42
 1
   3
-textstyle51
+textstyle24
   4
 
   0
@@ -2829,7 +2829,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle17
+textstyle56
  70
     0
  40
@@ -2843,7 +2843,7 @@ textstyle17
  42
 1
   3
-textstyle17
+textstyle56
   4
 
   0
@@ -2857,7 +2857,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle56
+textstyle26
  70
     0
  40
@@ -2871,7 +2871,7 @@ textstyle56
  42
 1
   3
-textstyle56
+textstyle26
   4
 
   0
@@ -2885,7 +2885,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle49
+textstyle60
  70
     0
  40
@@ -2899,7 +2899,7 @@ textstyle49
  42
 1
   3
-textstyle49
+textstyle60
   4
 
   0
@@ -2913,7 +2913,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle48
+textstyle18
  70
     0
  40
@@ -2927,7 +2927,7 @@ textstyle48
  42
 1
   3
-textstyle48
+textstyle18
   4
 
   0
@@ -2941,7 +2941,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle15
+textstyle54
  70
     0
  40
@@ -2955,7 +2955,7 @@ textstyle15
  42
 1
   3
-textstyle15
+textstyle54
   4
 
   0
@@ -2969,7 +2969,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle55
+textstyle40
  70
     0
  40
@@ -2983,7 +2983,7 @@ textstyle55
  42
 1
   3
-textstyle55
+textstyle40
   4
 
   0
@@ -2997,7 +2997,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle35
+textstyle48
  70
     0
  40
@@ -3011,7 +3011,7 @@ textstyle35
  42
 1
   3
-textstyle35
+textstyle48
   4
 
   0
@@ -3025,7 +3025,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle20
+textstyle49
  70
     0
  40
@@ -3039,7 +3039,7 @@ textstyle20
  42
 1
   3
-textstyle20
+textstyle49
   4
 
   0
@@ -3053,7 +3053,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle12
+textstyle50
  70
     0
  40
@@ -3067,7 +3067,7 @@ textstyle12
  42
 1
   3
-textstyle12
+textstyle50
   4
 
   0
@@ -3081,7 +3081,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle33
+textstyle46
  70
     0
  40
@@ -3095,7 +3095,7 @@ textstyle33
  42
 1
   3
-textstyle33
+textstyle46
   4
 
   0
@@ -3109,7 +3109,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle42
+textstyle57
  70
     0
  40
@@ -3123,7 +3123,7 @@ textstyle42
  42
 1
   3
-textstyle42
+textstyle57
   4
 
   0
@@ -3137,7 +3137,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle31
+textstyle61
  70
     0
  40
@@ -3151,7 +3151,7 @@ textstyle31
  42
 1
   3
-textstyle31
+textstyle61
   4
 
   0
@@ -3165,7 +3165,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle30
+textstyle25
  70
     0
  40
@@ -3179,7 +3179,7 @@ textstyle30
  42
 1
   3
-textstyle30
+textstyle25
   4
 
   0
@@ -3193,7 +3193,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle18
+textstyle12
  70
     0
  40
@@ -3207,7 +3207,7 @@ textstyle18
  42
 1
   3
-textstyle18
+textstyle12
   4
 
   0
@@ -3221,7 +3221,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle14
+textstyle51
  70
     0
  40
@@ -3235,7 +3235,7 @@ textstyle14
  42
 1
   3
-textstyle14
+textstyle51
   4
 
   0
@@ -3249,7 +3249,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle39
+textstyle44
  70
     0
  40
@@ -3263,7 +3263,7 @@ textstyle39
  42
 1
   3
-textstyle39
+textstyle44
   4
 
   0
@@ -3277,7 +3277,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle34
+textstyle13
  70
     0
  40
@@ -3291,7 +3291,7 @@ textstyle34
  42
 1
   3
-textstyle34
+textstyle13
   4
 
   0
@@ -3305,7 +3305,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle46
+textstyle31
  70
     0
  40
@@ -3319,7 +3319,7 @@ textstyle46
  42
 1
   3
-textstyle46
+textstyle31
   4
 
   0
@@ -3333,7 +3333,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle27
+textstyle43
  70
     0
  40
@@ -3347,7 +3347,7 @@ textstyle27
  42
 1
   3
-textstyle27
+textstyle43
   4
 
   0
@@ -3361,7 +3361,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle24
+textstyle22
  70
     0
  40
@@ -3375,7 +3375,7 @@ textstyle24
  42
 1
   3
-textstyle24
+textstyle22
   4
 
   0
@@ -3389,7 +3389,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle60
+textstyle28
  70
     0
  40
@@ -3403,7 +3403,7 @@ textstyle60
  42
 1
   3
-textstyle60
+textstyle28
   4
 
   0
@@ -3417,7 +3417,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle13
+textstyle11
  70
     0
  40
@@ -3431,7 +3431,7 @@ textstyle13
  42
 1
   3
-textstyle13
+textstyle11
   4
 
   0
@@ -3445,7 +3445,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle22
+textstyle27
  70
     0
  40
@@ -3459,7 +3459,7 @@ textstyle22
  42
 1
   3
-textstyle22
+textstyle27
   4
 
   0
@@ -3473,7 +3473,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle59
+textstyle62
  70
     0
  40
@@ -3487,7 +3487,7 @@ textstyle59
  42
 1
   3
-textstyle59
+textstyle62
   4
 
   0
@@ -3501,7 +3501,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle41
+textstyle14
  70
     0
  40
@@ -3515,7 +3515,7 @@ textstyle41
  42
 1
   3
-textstyle41
+textstyle14
   4
 
   0
@@ -3529,7 +3529,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle62
+textstyle21
  70
     0
  40
@@ -3543,7 +3543,7 @@ textstyle62
  42
 1
   3
-textstyle62
+textstyle21
   4
 
   0
@@ -3585,7 +3585,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle47
+textstyle19
  70
     0
  40
@@ -3599,7 +3599,7 @@ textstyle47
  42
 1
   3
-textstyle47
+textstyle19
   4
 
   0
@@ -3613,7 +3613,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle29
+textstyle52
  70
     0
  40
@@ -3627,7 +3627,7 @@ textstyle29
  42
 1
   3
-textstyle29
+textstyle52
   4
 
   0
@@ -3641,7 +3641,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle11
+textstyle47
  70
     0
  40
@@ -3655,7 +3655,7 @@ textstyle11
  42
 1
   3
-textstyle11
+textstyle47
   4
 
   0
@@ -3669,7 +3669,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle21
+textstyle20
  70
     0
  40
@@ -3683,7 +3683,7 @@ textstyle21
  42
 1
   3
-textstyle21
+textstyle20
   4
 
   0
@@ -3697,7 +3697,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle38
+textstyle35
  70
     0
  40
@@ -3711,7 +3711,7 @@ textstyle38
  42
 1
   3
-textstyle38
+textstyle35
   4
 
   0
@@ -3725,7 +3725,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-textstyle43
+textstyle23
  70
     0
  40
@@ -3739,7 +3739,7 @@ textstyle43
  42
 1
   3
-textstyle43
+textstyle23
   4
 
   0
