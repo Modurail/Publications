@@ -3,7 +3,7 @@
 Purpose
 +++++++
 
---NGM Club, Inc.-- North Georgia Modular Railroad Club, Inc. (NGM) is organized for the following purposes:
+~~NGM Club, Inc.~~ North Georgia Modular Railroad Club, Inc. (NGM) is organized for the following purposes:
 
 1. To furnish a forum where modular model railroaders can meet, discuss, learn about, and exchange ideas on modular model railroading.
 
@@ -144,7 +144,7 @@ The BOD may, at its discretion, accept additional monthly pro-rated dues payment
 Payment
 *******
 
-A member in good standing is defined as one who has paid the dues for the membership class in full, and who has paid said yearly dues in advance through the membership year in which said yearly dues are due and payable. --The membership year shall begin on April 1 and run through March 31 the following year.-- The membership year shall begin on January 1 and run through December 31.
+A member in good standing is defined as one who has paid the dues for the membership class in full, and who has paid said yearly dues in advance through the membership year in which said yearly dues are due and payable. ~~The membership year shall begin on April 1 and run through March 31 the following year.~~ The membership year shall begin on January 1 and run through December 31.
 
 Dues Notification
 *****************
