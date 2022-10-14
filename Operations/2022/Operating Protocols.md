@@ -1,4 +1,4 @@
-#Purpose
+# Purpose
 North Georgia Modurail[^NGM1] (NGM) has a long history of providing its Members an opportunity to enjoy model railroading in a group environment. As with any group, there are often conflicts over shared resources or differing opinions and values. These guidelines are intended to minimize these conflicts while maximizing our Members' mutual enjoyment of the hobby during NGM sponsored events.
 
 These are *not* intended to be a comprehensive set of strict rules (how much fun would that be?) but merely reflect the accumulated wisdom of a shared culture. Courtesy and good judgment are the overriding themes for these guidelines.
@@ -6,7 +6,7 @@ These are *not* intended to be a comprehensive set of strict rules (how much fun
 
 [^NGM1]: North Georgia Modular Railroad Club, Inc.
 
-#Mainline Operations
+# Mainline Operations
 * Check in with the Trainmaster[^OP1] upon arrival for clearance to setup and operate.[^OP2]
 
 * **Never program your DCC locomotive while on the layout.** Use only the programming track (separate from the layout).
@@ -28,12 +28,12 @@ These are *not* intended to be a comprehensive set of strict rules (how much fun
 [^OP1]: This may refer to the Yardmaster and/or the Dispatcher, depending on the show.
 [^OP2]: Refer to the Dispatching document supplement for more details.
 
-#Yards
+# Yards
 * The club yards offer limited space for *active* loading and unloading trains. Generally, trains should not be parked in the yards without permission from the Yardmaster.
 
 * The Yardmaster oversees traffic flow and keeps the yards clear for arrivals and departures.
 
-#Other Protocols
+# Other Protocols
 * If you operate trains at a show, you are expected to help with show setup, tear-down, and loading the club trailer. While no one can help every time, this is an important part of club membership.
 
 * Members are encouraged to build a module and use it in shows. Quality scenery, trackwork, and reliable wiring are all important. Club members are always happy to help with module options.

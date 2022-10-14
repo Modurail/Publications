@@ -1,4 +1,4 @@
-#Purpose
+# Purpose
 This document supplements the **NGM Operating Protocols and 'Rules of the Road'** document with more specific information on train operations and dispatching.
 
 * Since its beginning in 1993, NGM has always expected train operators to run at the direction of a Dispatcher. While this expectation has not always been strictly adhered to, it should be considered a normal way to *'run a railroad'*.
@@ -7,7 +7,7 @@ This document supplements the **NGM Operating Protocols and 'Rules of the Road'*
 
 * Following these protocols will give NGM members and visitors alike a more enjoyable model railroading experience.
 
-#Dispatching Protocols
+# Dispatching Protocols
 In general, dispatching a railroad (prototype or model) means that *all* traffic on the railroad (whether moving or not) is monitored and directed by a *'Dispatcher'*[^DISP1].
 
 * The dispatcher's *'Order Board'* should reflect what is actually happening on the railroad. Which trains are where, why and for how long?
@@ -42,7 +42,7 @@ In general, dispatching a railroad (prototype or model) means that *all* traffic
 
 [^DISP3]: Removing or replacing a few 'problem' cars is not significant. Changing the lead engine or the general consist 'type' to a different type *is* significant (e.g. change a mixed general freight consist to mostly coal hoppers). The dispatcher must be able to visually verify the order board matches what's on the layout.
 
-#FAQ
+# FAQ
 
 
 ##Why are we changing?
@@ -127,7 +127,7 @@ During most NGM exhibits, the Dispatcher and Yardmaster duties will be shared by
 
   * *have explicit authority* to safely move (or remove) *'orphan'* cars, engines and entire consists from the yards,
 
-   * ensure the setup tables remain clear,be responsible to keep them clear and may safely move anything which is not being used for *active* setup or take off,
+   * ensure the setup tables remain clear, be responsible to keep them clear and may safely move anything which is not being used for *active* setup or take off,
   
   * communicate with the Dispatcher to efficiently hand off block grant requests.
 
