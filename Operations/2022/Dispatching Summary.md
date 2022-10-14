@@ -27,7 +27,7 @@ When using the NGM layout to run trains (operator) or even as a static display o
 # Extras
 A few other things to keep in mind…
 
-1. Block grants apply to any and all engines and rolling stock anywhere on the layout (except your personal module siding tracks). Do not place *anything* on the steam or diesel servicing facility tracks without a valid block grant.
+1. Block grants apply to all engines and rolling stock anywhere on the layout (except your personal module siding tracks). Do not place *anything* on the steam or diesel servicing facility tracks without a valid block grant.
 
 2. You **must** notify the dispatcher if you expect to have an *unattended* consist on the layout (e.g. a meal break) and you **must** get a valid block grant for it. The dispatcher must know how to contact you.
 
