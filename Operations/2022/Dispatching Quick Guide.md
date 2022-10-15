@@ -1,4 +1,4 @@
-#Dispatching Basics
+# Dispatching Basics
 1. On arrival, check in with the designated '*Dispatcher*'[^DISP1] *before* placing anything on a setup table or the layout anywhere. Ask the dispatcher what information s/he needs to approve your '*block occupancy grant request*'. Usually, you will need to provide…
 
   * Consist information
@@ -15,7 +15,7 @@
 
 [^DISP1]: Depending on the event, this may be the '*Trainmaster*' and/or a '*Yardmaster*'. For simplicity, '*Dispatcher*' here may refer to any or all of these roles.
 
-#Extras
+# Extras
 1. Block grants apply to all engines and rolling stock anywhere on the layout including yards and service facility tracks.
 
 2. You **must** notify the dispatcher if you expect to have an *unattended* consist on the layout (e.g., a meal break) and you **must** get a valid block grant for it. The dispatcher must know how to contact you.
