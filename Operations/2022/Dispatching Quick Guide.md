@@ -1,7 +1,7 @@
 # Dispatching Basics
 1. On arrival, check in with the designated '*Dispatcher*'[^DISP1] *before* placing anything on a setup table or the layout anywhere. Ask the dispatcher what information s/he needs to approve your '*block occupancy grant request*'. Usually, you will need to provide…
 
-  * Consist information
+  * Consist information (lead engine road, type and number, general description of the consist, and DCC address).
   
   * Which yard block you wish to set up on (occupy) and which track block you wish to operate on.
   
@@ -9,9 +9,11 @@
 
 2. After the dispatcher approves your request, you may begin building your consist.
 
-3. Notify the dispatcher anytime you want to move to a different block (e.g., yard to main track or vice versa). Wait for the dispatcher to approve the request before making the move.
+3. Remove all boxes, cases, etc. from the setup table.
 
-6. Follow the general **Operating Guidelines and 'Rules of the Road'** and enjoy operating your train!
+4. Notify the dispatcher anytime you want to move to a different block (e.g., yard to main track or vice versa). Wait for the dispatcher to approve the request before making the move.
+
+5. Follow the general **Operating Guidelines and 'Rules of the Road'** and enjoy operating your train!
 
 [^DISP1]: Depending on the event, this may be the '*Trainmaster*' and/or a '*Yardmaster*'. For simplicity, '*Dispatcher*' here may refer to any or all of these roles.
 

@@ -48,5 +48,5 @@ These are *not* intended to be a comprehensive set of strict rules (how much fun
 
 * Model railroading is a great hobby that attracts people of all ages, backgrounds, and experience levels.
 
-* We encourage NGM members to become join the National Model Railroad Association (NMRA). The local chapter of NMRA is the Piedmont Division which covers metro Atlanta and most of North Georgia.
+* We encourage NGM members to join the National Model Railroad Association (NMRA). The local chapter of NMRA is the Piedmont Division which covers metro Atlanta and most of North Georgia.
 

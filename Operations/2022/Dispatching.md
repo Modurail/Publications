@@ -12,7 +12,7 @@ In general, dispatching a railroad (prototype or model) means that *all* traffic
 
 * The dispatcher's *'Order Board'* should reflect what is actually happening on the railroad. Which trains are where, why and for how long?
 
-* To properly maintain the order board, the NGM designated dispatcher will approve a request (give permission) for a train (consist) to *'occupy a block'* for a certain period of time.
+* To properly maintain the NGM order board, the designated dispatcher will approve a request (give permission) for a train (consist) to *'occupy a block'* for a certain period of time.
 
 * This approval is called a *'block occupancy grant'*, or simply a *'block grant'*.
 
@@ -31,8 +31,8 @@ In general, dispatching a railroad (prototype or model) means that *all* traffic
 * Operators **must** request and receive permission from the dispatcher **before**…
 
   1. placing any rolling stock (engines or cars) anywhere on the layout[^DISP2],
-  2. moving from one block to another block (e.g. entering a yard from a mainline or vice versa),
-  3. leaving a controlled block to go to a remote track section or returning from same,
+  2. moving from one block to another block (e.g., entering a yard from a mainline or vice versa),
+  3. leaving a controlled block to go to a remote (foreign) track section or returning from same,
   4. making significant changes[^DISP3] to the approved consist,
   5. removing a consist from a designated block.
 
@@ -40,7 +40,7 @@ In general, dispatching a railroad (prototype or model) means that *all* traffic
 
 [^DISP2]: This includes *all* mainline tracks, including aux. 3. The only exception is on personally owned module sidings and tracks, which are not considered dispatcher controlled blocks.
 
-[^DISP3]: Removing or replacing a few 'problem' cars is not significant. Changing the lead engine or the general consist 'type' to a different type *is* significant (e.g. change a mixed general freight consist to mostly coal hoppers). The dispatcher must be able to visually verify the order board matches what's on the layout.
+[^DISP3]: Removing or replacing a few 'problem' cars is not significant. Changing the lead engine or the general consist 'type' to a different type *is* significant (e.g., change a mixed general freight consist to mostly coal hoppers). The dispatcher must be able to visually verify the order board matches what's on the layout.
 
 # FAQ
 
@@ -65,7 +65,7 @@ We didn't have to request *'block grants'* before, why now?
 ## What is a *'block'*?
 **A.** A *'block'* is any section of track on the club layout under the control of the yardmaster and/or the dispatcher. These include *all* yard tracks (main and wye yards as well as the diesel and steam servicing facilities) and the three mainline tracks (main 1, main 2 and aux. 3). These may also include *'sidings'* on personal modules as the module owner may decide.
 
-  * For most public exhibits, a mainline block is usually the entirety of a particular track (e.g. main track 2). In a dedicated operating session, a track or yard may be further subdivided into smaller blocks for operational purposes (as on a protoype railroad).
+  * For most public exhibits, a mainline block is usually the entirety of a particular track (e.g., main track 2). In a dedicated operating session, a track or yard may be further subdivided into smaller blocks for operational purposes (as on a protoype railroad).
 
 ## What is a *'consist'*?
 **A.** A *'consist'* is any set of cars (*'rolling stock'*) of any length, from a single car or engine to a string of cars with or without motive power.
@@ -75,7 +75,7 @@ We didn't have to request *'block grants'* before, why now?
 
   * The start time begins when the yardmaster/dispatcher *'grants'* the operator permission (approves the request) to occupy a specific block with a specific consist.
 
-  * The end time (*'grant expiration'*) is simply when the permission expires. The operator **must** request permission to either extend the grant or to move and occupy a different block. For example, the operator requests to enter the main yard block from the mainline track 1 block. The dispatcher/yardmaster will create a new *'block grant'* for this move.
+  * The end time (*'grant expiration'*) is simply when the permission expires. The operator **must** request permission to either extend the grant, move and occupy a different block or completely remove the consist from the layout. For example, the operator requests to enter the main yard block from the mainline track 1 block. The dispatcher/yardmaster will create a new *'block grant'* for this move.
 
   * No block grant may be issued without an expiration. **There are no indefinite or permanent grants to occupy any block.**
 
@@ -89,10 +89,10 @@ We didn't have to request *'block grants'* before, why now?
   * DCC address (*'I'm operating on DCC address 2890.'*)
 
 ## What are *'remote blocks'*?
-**A.** Occasionally, NGM collaborates with other clubs or groups to build larger layouts. A *'remote block'* is any track section not under the control or direction of the NGM dispatcher. These remote blocks are not considered NGM mainline, yard or siding blocks. Nevertheless, an operator with a valid mainline block grant should advise the dispatcher when leaving the NGM mainline and request a new block grant to re-enter the NGM mainline. These remote blocks may or may not require block grant approval to enter their blocks.
+**A.** Occasionally, NGM collaborates with other clubs or groups to build larger layouts. A *'remote block'* is any track section not under the control or direction of the NGM dispatcher (AKA *'foreign'* territory). These remote blocks are not considered NGM mainline, yard or siding blocks. Nevertheless, an operator with a valid mainline block grant should advise the dispatcher when leaving the NGM mainline and request a new block grant to re-enter the NGM mainline. These remote blocks may or may not require block grant approval to enter their blocks.
 
 ## What does the *'Dispatcher'* do?
-**A.** The *'Dispatcher'* is primarily responsible for the efficient movement of trains on the layout, in particular the mainline tracks (main 1, main 2 and aux. 3). During public exhibits, s/he will ensure that our guests and visitors will see plenty of *'train action'* and maximize the capacity of the layout while maintaining safe operating distance between trains. S/he will also…
+**A.** The *'Dispatcher'* is primarily responsible for the efficient movement of trains on the layout, in particular the mainline tracks (main 1, main 2 and aux. 3). During public exhibits, s/he will ensure that our guests and visitors will see plenty of *'train action'* and maximize the capacity of the layout while maintaining safe operating distance between trains. To accomplish this s/he will be responsible to…
 
   * approve or deny (sometimes postone) block grant requests,
 
@@ -115,7 +115,7 @@ During most NGM exhibits, the Dispatcher and Yardmaster duties will be shared by
 [^DISP4]: Any rolling stock or consist occupying any dispatcher controlled block without a valid block grant and whose owner cannot be identified or is not present is considered *'orphaned'* and is subject to removal.
 
 ## What does the *'Yardmaster'* do?
-**A.** The *'Yardmaster'* is responsible for the efficient use of the yard tracks. These include the main yard, the diesel and steam servicing facilities and the wye yard (AKA Ivan's yard). S/he will…
+**A.** The *'Yardmaster'* is responsible for the efficient use of the yard tracks. These include the main yard, the diesel and steam servicing facilities and the wye yard (AKA Ivan's yard). S/he will be responsible to…
 
   * approve or deny (sometimes postone) block grant requests to occupy yard tracks,
 
@@ -153,7 +153,7 @@ I signed up for an operations slot on Signup Genius (SUG). Do I still have to as
 ## What about breaks?
 Do I have to remove my consist from the layout to take a meal break?
 
-**A.** Usually not, though it depends on a variety of factors and the yardmaster will make the ultimate decision. However, the consist operator **must** request and recieve a valid block grant for the expected duration of the break. The operator must not leave any consist unattended for any significant length of time and will ensure the yardmaster knows how to contact them.
+**A.** Usually not, though it depends on a variety of factors and the dispatcher/yardmaster will make the ultimate decision. However, the consist operator **must** request and recieve a valid block grant for the expected duration of the break. The operator must not leave any consist unattended for any significant length of time and will ensure the yardmaster knows how to contact them.
 
   * This protocol includes leaving any consist(s) (including single cars and engines) on any part of the layout overnight. These extended block grants are strongly discouraged and should only be approved in very limited circumstances.
 
