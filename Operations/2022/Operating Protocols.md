@@ -7,11 +7,11 @@ These are *not* intended to be a comprehensive set of strict rules (how much fun
 [^NGM1]: North Georgia Modular Railroad Club, Inc.
 
 # Mainline Operations
-* Check in with the Trainmaster[^OP1] upon arrival for clearance to setup and operate.[^OP2]
+* **Check in with the Trainmaster[^OP1] upon arrival for clearance to setup and operate.**[^OP2]
 
 * **Never program your DCC locomotive while on the layout.** Use only the programming track (separate from the layout).
 
-* To prevent accidents, derailments, or damage, return track switches to the mainline position after your train passes through. This may be one switch or multiple switches.
+* To prevent accidents, derailments, or damage, **return track switches to the mainline position after your train passes through**. This may be one switch or multiple switches.
 
 * Check with other operators before entering or crossing the mainlines.
 
@@ -21,7 +21,7 @@ These are *not* intended to be a comprehensive set of strict rules (how much fun
 
 * Train loading and off-loading should take place in the yard(s) only.
 
-* Watch your speed.
+* Watch your speed (discretion of the dispatcher).
 
 * Use metal wheelsets on the layout.
 
@@ -34,7 +34,7 @@ These are *not* intended to be a comprehensive set of strict rules (how much fun
 * The Yardmaster oversees traffic flow and keeps the yards clear for arrivals and departures.
 
 # Other Protocols
-* If you operate trains at a show, you are expected to help with show setup, tear-down, and loading the club trailer. While no one can help every time, this is an important part of club membership.
+* If you operate trains at a show, **you are expected to help** with show setup, tear-down, and loading the club trailer. While no one can help every time, this is an important part of club membership.
 
 * Members are encouraged to build a module and use it in shows. Quality scenery, trackwork, and reliable wiring are all important. Club members are always happy to help with module options.
 
