@@ -111,13 +111,13 @@ We didn't have to request *TAs* before, why now?
 
   * advise operators of unsafe operating practices (e.g., excessive speed), removal of *'problem'* cars and anything else needed for a good experience by our guests and other members,
 
-  * *have explicit authority* to safely move (or remove) *'orphan'*[^DISP4] cars, engines and entire consists from the layout,
+  * *have explicit authority* to safely move (or remove) *'orphan'*[^DISP5] cars, engines and entire consists from the layout,
 
   * communicate with the *'Yardmaster'* to efficiently hand off TA requests.
 
 During most NGM exhibits, the Dispatcher and Yardmaster duties will be shared by the same individual.
 
-[^DISP4]: Any rolling stock or consist occupying any dispatcher controlled block without a valid TA and whose owner cannot be identified or is not present is considered *'orphaned'* and is subject to removal.
+[^DISP5]: Any rolling stock or consist occupying any dispatcher controlled block without a valid TA and whose owner cannot be identified or is not present is considered *'orphaned'* and is subject to removal.
 
 ## What does the *'Yardmaster'* do?
 **A.** The *'Yardmaster'* is responsible for the efficient use of the yard tracks. These include the main yard, the diesel and steam servicing facilities and the wye yard (AKA Ivan's yard). S/he will be responsible to…
