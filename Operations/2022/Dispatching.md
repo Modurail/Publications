@@ -82,7 +82,7 @@ We didn't have to request *TAs* before, why now?
 
   * No TA may be issued without an expiration. **There are no indefinite or permanent grants to occupy any block.**
 
-[^DISP4]:*Non-exlusive' means the operator may be sharing the TA block with other operators and must exercise caution and courtesy when operating within their block.
+[^DISP4]:*Non-exlusive* means the operator may be sharing the TA block with other operators and must exercise caution and courtesy when operating within their block.
 
 ## How do I request a TA?
 **A.** Simply contact the designated dispatcher or yardmaster and ask permission to occupy a block. S/he will advise what information is needed to approve the TA. For example…
