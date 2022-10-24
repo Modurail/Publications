@@ -78,7 +78,7 @@ We didn't have to request *TAs* before, why now?
 
   * The start time begins when the yardmaster/dispatcher *'grants'* the operator authority (approves the request) to occupy a specific block with a specific consist.
 
-  * The end time (*'TA expiration'*) is simply when the permission expires. The operator **must** request permission to either extend the TA, move and occupy a different block or completely remove the consist from the layout. For example, the operator requests to enter the main yard block from the mainline track 1 block. The dispatcher/yardmaster will create a new *'TA'* for this move.
+  * The end time (*'TA expiration'*) is simply when the permission expires. The operator **must** request permission to either extend the TA, move and occupy a different block or completely remove the consist from the layout. For example, the operator requests to enter the main yard block from the mainline track 1 block. The dispatcher/yardmaster will create a new *'TA'* (or edit the current *'TA'*) for this move.
 
   * No TA may be issued without an expiration. **There are no indefinite or permanent grants to occupy any block.**
 
