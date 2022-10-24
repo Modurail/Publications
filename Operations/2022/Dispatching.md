@@ -1,3 +1,4 @@
+
 # Purpose
 This document supplements the **NGM Operating Protocols and 'Rules of the Road'** document with more specific information on train operations and dispatching.
 
@@ -67,17 +68,21 @@ We didn't have to request *TAs* before, why now?
 
   * For most public exhibits, a mainline block is usually the entirety of a particular track (e.g., main track 2). In a dedicated operating session, a track or yard may be further subdivided into smaller blocks for operational purposes (as on a protoype railroad).
 
+* Blocks will usually have multiple consists operating in them at the same time. (See footnote on *non-exclusive* in the Track Authority section.)
+
 ## What is a *'consist'*?
 **A.** A *'consist'* is any set of cars (*'rolling stock'*) of any length, from a single car or engine to a string of cars with or without motive power.
 
 ## What is a *'Track Authority'*?
-**A.** A *'Track Authority'* (*'TA'*) is a limited time *permission to occupy a block* by one or more engines or cars (consist). A TA has a starting and ending time (expiration).
+**A.** A *'Track Authority'* (*'TA'*) is a non-exclusive[^DISP4], limited time *permission to occupy a block* by one or more engines or cars (consist). A TA has a starting and ending time (expiration).
 
   * The start time begins when the yardmaster/dispatcher *'grants'* the operator authority (approves the request) to occupy a specific block with a specific consist.
 
   * The end time (*'TA expiration'*) is simply when the permission expires. The operator **must** request permission to either extend the TA, move and occupy a different block or completely remove the consist from the layout. For example, the operator requests to enter the main yard block from the mainline track 1 block. The dispatcher/yardmaster will create a new *'TA'* for this move.
 
   * No TA may be issued without an expiration. **There are no indefinite or permanent grants to occupy any block.**
+
+[^DISP4]:*Non-exlusive' means the operator may be sharing the TA block with other operators and must exercise caution and courtesy when operating within their block.
 
 ## How do I request a TA?
 **A.** Simply contact the designated dispatcher or yardmaster and ask permission to occupy a block. S/he will advise what information is needed to approve the TA. For example…
