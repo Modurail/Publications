@@ -58,7 +58,7 @@ We didn't have to request *TAs* before, why now?
   
   * Most TAs will be approved. Very rarely will the dispatcher need to deny or postpone a request.
   
-  * Recent experience with an active dispatcher proves that the setup yards (main and wye) can be kept clear enough for new consists to be be built and running consists to come off if a yardmaster/dispatcher can direct traffic.
+  * Recent experience with an active dispatcher proves that the setup yards (main and wye) can be kept clear enough for new consists to be built and running consists to come off if a yardmaster/dispatcher can direct traffic.
   
   * NGM can eliminate *'unknown consists'* (*'orphans'*) from clogging up the yards.
   
