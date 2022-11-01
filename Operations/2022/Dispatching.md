@@ -1,4 +1,3 @@
-
 # Purpose
 This document supplements the **NGM Operating Protocols and 'Rules of the Road'** document with more specific information on train operations and dispatching.
 
@@ -20,7 +19,9 @@ In general, dispatching a railroad (prototype or model) means that *all* traffic
 * A *'block'* is any section of track under the direction of the dispatcher and/or the yardmaster. For typical NGM layouts for public exhibits, blocks would be mainline tracks (main 1, main 2 and aux. 3) and all yard tracks (main and wye yards, and the diesel and steam servicing facilities).
 
   + A block may also include a siding if its control has been ceded to the dispatcher by the siding owner.
-  
+
+  + Block occupancy is almost always *non-exclusive*, meaning there will likely be other operators (consists) with valid TAs occupying the block at the same time.
+
   + Special operating sessions may call for defining blocks differently (such as a subdivided mainline).
   
   + Remote (AKA *foreign*) track areas controlled by other groups or individuals with modules connected to an NGM layout are usually not considered dispatcher controlled blocks.
